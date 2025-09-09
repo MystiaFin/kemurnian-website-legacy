@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>PPDB</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/base.css?ver=1.1" type="text/css">
+	<link rel="stylesheet" href="css/main.css?ver=1.4" type="text/css">
+	<link rel="stylesheet" href="css/media-queries.css?ver=1.5" type="text/css">         
+
+   <!-- Script
+   =================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	=================================================== -->
+	<link rel="shortcut icon" href="logo.png" >
+
+</head>
+
+<body>
+
+   <div id="top"></div>
+   <div id="preloader"> 
+	   <div id="status">
+         <img src="images/loader.gif" height="60" width="60" alt="">
+         <div class="loader">Loading...</div>
+      </div>
+   </div>
+
+   <!-- Header
+   =================================================== -->
+   <header id="main-header" style="background: rgb(43, 40, 40)">
+
+   	<div class="row header-inner">
+
+	      <div class="logo">
+	         <a href="index.php"></a>
+	      </div>
+
+	      <nav id="nav-wrap">         
+	         
+	         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+	         	<span class='menu-text'>Show Menu</span>
+	         	<span class="menu-icon"></span>
+	         </a>
+         	<a class="mobile-btn" href="#" title="Hide navigation">
+         		<span class='menu-text'>Hide Menu</span>
+         		<span class="menu-icon"></span>
+         	</a>         
+
+	         <ul id="nav" class="nav">
+	             
+	             <form class="desktop-hidden" autocomplete="off" action="">
+						<div class="autocomplete" style="display: inline-block; position: relative;">
+							<input id="myInputMob" type="search" placeholder="Search">
+						</div>
+						<button id="search-button-mob" type="button" onclick="openPageMob()"><img src="./images/search.png"></button>
+					</form>
+	             
+	            <li><a href="index.php#hero">Home.</a></li>
+	            <li><a href="index.php#services">School.</a></li>
+	            <li class="current"><a href="index.php#ppdb">PPDB.</a></li>
+	            <li><a href="index.php#kurikulum">Curriculum.</a></li>
+	            <li><a href="index.php#about">About.</a></li>
+	            <li><a href="index.php#journal">News.</a></li>	        
+	            <li><a href="index.php#contact">Contact.</a></li>
+
+				<form class="mobile-hidden" autocomplete="off" action="">
+						<div class="autocomplete" style="display: inline-block; position: relative;">
+							<input id="myInput" type="search" placeholder="Search">
+						</div>
+						<button id="search-button" type="button" onclick="openPage()"><img src="./images/search.png"></button>
+					</form>
+					
+	         </ul> 
+
+	      </nav> <!-- /nav-wrap -->
+
+	   </div> <!-- /header-inner -->
+
+   </header>
+
+   <!-- Content
+   ================================================== -->
+   <section id="promo-page">
+
+	<div class="content">
+
+        <div class="row section-head">
+
+            <div class="twelve columns">
+      
+              <h1>PROMO Oktober Nonstop</h1>
+
+              <hr />
+
+              <img src="./images/promo_okt22.jpg" alt="">
+
+              <h2>Mulai dari 4 Oktober – 31 Oktober 2022</h2>
+      
+           </div>
+      
+         </div>
+
+         <p>Kabar Gembira bagi siswa-siswi juga orang tua yang masih ingin bergabung dan mendaftarkan putera-puterinya di Sekolah Kemurnian.</p>
+        
+         <p>Di bulan Oktober yang spesial ini, kami masih mengadakan promo potongan biaya pendidikan menarik sebesar 40% ** (**Syarat dan Ketentuan berlaku).
+         </p>
+
+         <p>Ayo bagi siswa dan siswi yang ingin bergabung ke sekolah kami, jangan lewatkan kesempatan ini dan bergabung dengan sekolah kami karena tempat dan promo terbatas!!! </p>
+
+         <p>Untuk informasi lebih lanjut, hubungi kami melalui klik link di bio kami, scan QR code pada post kami atau bisa telepon ke nomor sekolah di bawah ini : </p>
+   
+         <p><i class="fa fa-phone"></i> Telepon :<br>
+            6340525/6335236 (sekolah kemurnian 1) <br>
+            5605547/5605556 (sekolah kemurnian 2) <br>
+            5442459/60 (sekolah kemurnian 3 TK) <br>
+            54390004/5 (sekolah kemurnian 3 SD)
+         </p>
+   
+         <p>(Anda dapat menghubungi nomor telepon yang tertera pada jam kerja Senin - Jumat pk 07.30 - 14.00 dan 
+            link Whatsapp kami pada hari Senin sampai dengan Minggu pk 07.30 - 16.00)</p>
+
+	</div>
+
+   </section> <!-- /content -->  
+
+
+   <!-- Footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+			<br>
+
+			<div class="mob-whole six columns left">
+
+				<img src="./images/cambridge.png" alt="">
+
+			</div> <!-- /left -->
+
+			<div class="mob-whole six columns right">
+
+				<h3 class="contact">Follow Us</h3>
+
+				<ul class="footer-links-soi">
+					<li><a href="https://web.facebook.com/sekolah.kemurnian?_rdc=1&_rdr" target="_blank"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://www.instagram.com/accounts/login/?next=/sekolah.kemurnian/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://www.youtube.com/results?search_query=sekolah+kemurnian" target="_blank"><i class="fa fa-youtube"></i></a></li>
+				</ul>
+
+			</div> <!-- /right -->
+
+			<div id="go-top">
+				<a class="smoothscroll" title="Back to Top" href="#promo-page"><span>Top</span><i class="fa fa-long-arrow-up"></i></a>
+			</div>
+
+			<div id="contact">
+				<a href="https://linktr.ee/sekolahkemurnian" target="_blank"><img src="./images/whatsapp.png" alt=""></a>
+			</div>
+
+			<div id="aimsis-home">
+				<a class="buttonn stroke" href="https://aimsis.com/" target="_blank">aimsis</a>
+			</div>
+
+			<div id="sound">
+				<audio id="mars" controls>
+					<source src="mars-kemurnian-jaya.mp3" type="audio/mpeg">
+				</audio>
+			</div>
+
+		</div> <!-- /row -->
+
+		<div class="row">
+			<div class="twelve columns">
+				<p>Copyright © 2022 Sekolah Kemurnian. All rights reserved. | Design & development by Digital One</p>
+			</div>
+		</div>
+
+   </footer> <!-- /footer -->
+
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>   
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/backstretch.js"></script> 
+   <script src="js/waypoints.js"></script>  
+   <script src="js/main.js"></script>
+   <script src="js/autocomplete.js"></script>
+   <script src="js/autocompletemobile.js"></script>
+
+</body>
+
+</html>

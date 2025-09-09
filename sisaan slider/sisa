@@ -1,0 +1,58 @@
+<!-- Slide -->
+                         <li class="slide-5" onclick="window.location.href='./graduation-day-sma-kmn2-2023.html'">
+                         <div class="flex-caption">
+                               <h1>
+                                    Graduation Day SMA Kemurnian II Tahun 2023
+                                </h1>-->
+                                  <a title="Baca Berita" class="button stroke smoothscroll" target="_blank" href="./graduation-day-sma-kmn2-2023.html">
+                                    Baca Berita
+                                </a>
+                            </div>
+                        </li>
+                              
+                        <!-- Slide -->
+                     <li class="slide-6" onclick="window.location.href='./ibadah_waisak_tk_sd_kmn2_2023.html'">
+                         <div class="flex-caption">
+                             <h1>
+                                    Ibadah Waisak 2567BE/2023M TK dan SD Kemurnian II
+                              </h1>
+                                <p>
+                                 <a title="Baca Berita" class="button stroke smoothscroll" href="./ibadah_waisak_tk_sd_kmn2_2023.html">Baca Berita</a>
+                              </p>
+                            </div>
+                        </li>
+PPDB Section
+
+	<div class="row ppdb-content">
+
+			<div class="mob-whole six columns left">
+
+                <br>
+
+ 
+		<img src="./images/septemberceria.jpg">
+
+		<h2>Promo September Ceria</h2>
+
+		<p>Promo September Ceria (Mulai dari 1 September - 30 September 2022)</p>
+			<br class="br-hidden">
+			<br class="br-hidden">
+			<br class="br-hidden">
+		<p><a class="button stroke" href="promo-open-24.html">Pelajari Selengkapnya</a></p>
+
+		<br>
+
+			<</div>	<div class="mob-whole six columns right">
+			    <br>
+
+                                    		<img src="./images/promo_okt22.jpg">
+
+				<h2>Promo Oktober Nonstop</h2>
+
+				<p>Di bulan Oktober yang spesial ini, kami masih mengadakan promo potongan biaya pendidikan ...</p>
+					<br class="br-hidden">
+					<br class="br-hidden">
+				<p><a class="button stroke" href="promo-oktober22.html">Pelajari Selengkapnya</a></p>
+
+				<br>
+			    

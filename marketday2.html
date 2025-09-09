@@ -1,0 +1,517 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<!--[if lt IE 8]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+	<!--<![endif]-->
+	<head>
+		<!--- Basic Page Needs
+   ================================================== -->
+		<meta charset="utf-8" />
+		<title>News</title>
+		<meta name="description" content="Market Day TK Kemurnian II" />
+		<meta name="author" content="" />
+
+		<meta
+			http-equiv="Cache-Control"
+			content="no-cache, no-store, must-revalidate" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="0" />
+
+		<!-- Mobile Specific Metas
+   ================================================== -->
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+		<!-- CSS
+    ================================================== -->
+		<link rel="stylesheet" href="css/base.css?ver=1.1" type="text/css" />
+		<link rel="stylesheet" href="css/main.css?ver=1.4" type="text/css" />
+		<link
+			rel="stylesheet"
+			href="css/media-queries.css?ver=1.5"
+			type="text/css" />
+
+		<!-- Script
+   =================================================== -->
+		<script defer src="js/modernizr.js"></script>
+
+		<!-- Favicons
+	=================================================== -->
+		<link rel="shortcut icon" href="logo.png" />
+
+		<!-- Swiper JS
+	=================================================== -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	</head>
+
+	<body>
+		<div id="top"></div>
+		<div id="preloader">
+			<div id="status">
+				<img src="images/loader.gif" height="60" width="60" alt="" />
+				<div class="loader">Loading...</div>
+			</div>
+		</div>
+
+		<!-- Header
+   =================================================== -->
+		<header id="main-header" style="background: rgb(43, 40, 40)">
+			<div class="row header-inner">
+				<div class="logo">
+					<a href="index.php" title="Home Page"></a>
+				</div>
+
+				<nav id="nav-wrap">
+					<a
+						class="mobile-btn"
+						href="#nav-wrap"
+						title="Show navigation">
+						<span class="menu-text">Show Menu</span>
+						<span class="menu-icon"></span>
+					</a>
+					<a class="mobile-btn" href="#" title="Hide navigation">
+						<span class="menu-text">Hide Menu</span>
+						<span class="menu-icon"></span>
+					</a>
+
+					<ul id="nav" class="nav">
+						<form
+							class="desktop-hidden"
+							autocomplete="off"
+							action="">
+							<div
+								class="autocomplete"
+								style="
+									display: inline-block;
+									position: relative;
+								">
+								<input
+									id="myInputMob"
+									type="search"
+									placeholder="Search" />
+							</div>
+							<button
+								id="search-button-mob"
+								type="button"
+								onclick="openPageMob()">
+								<img src="./images/search.png" />
+							</button>
+						</form>
+
+						<li><a href="index.php#hero">Home.</a></li>
+						<li><a href="index.php#services">School.</a></li>
+						<li><a href="index.php#ppdb">PPDB.</a></li>
+						<li><a href="index.php#kurikulum">Curriculum.</a></li>
+						<li><a href="index.php#about">About.</a></li>
+						<li class="current">
+							<a href="index.php#journal">News.</a>
+						</li>
+						<li><a href="index.php#contact">Contact.</a></li>
+
+						<form
+							class="mobile-hidden"
+							autocomplete="off"
+							action="">
+							<div
+								class="autocomplete"
+								style="
+									display: inline-block;
+									position: relative;
+								">
+								<input
+									id="myInput"
+									type="search"
+									placeholder="Search" />
+							</div>
+							<button name="search"
+								id="search-button"
+								type="button"
+								onclick="openPage()">
+								<img alt="search" src="./images/search.png" />
+							</button>
+						</form>
+					</ul>
+				</nav>
+				<!-- /nav-wrap -->
+			</div>
+			<!-- /header-inner -->
+		</header>
+
+		<!-- Content
+   ================================================== -->
+		<section id="event-page">
+			<div class="content">
+				<div class="row section-head">
+					<div class="twelve columns">
+						<h1>Market Day TK Kemurnian II</h1>
+
+						<h2><u>2 & 6 September 2022</u></h2>
+
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<picture>
+										<source
+                                        srcset="./images/marketday2-1.avif 1080w,
+                                                ./images/marketday2-1-540.avif 540w"
+                                            sizes="(max-width: 540px) 100vw, 540px"
+											type="image/avif" />
+										<img
+											src="./images/marketday2-1.jpg"
+											alt="marketday2-1"
+											loading="lazy"
+											decoding="async" />
+									</picture>
+								</div>
+
+								<div class="swiper-slide">
+									<picture>
+										<source
+											srcset="./images/marketday2-2.avif"
+											type="image/avif" />
+										<img
+											src="./images/marketday2-2.jpg"
+											alt="marketday2-2"
+											loading="lazy"
+											decoding="async" />
+									</picture>
+								</div>
+
+								<div class="swiper-slide">
+									<picture>
+										<source
+											srcset="./images/marketday2-3.avif"
+											type="image/avif" />
+										<img
+											src="./images/marketday2-3.jpg"
+											alt="marketday2-3"
+											loading="lazy"
+											decoding="async" />
+									</picture>
+								</div>
+
+								<div class="swiper-slide">
+									<picture>
+										<source
+											srcset="./images/marketday2-4.avif"
+											type="image/avif" />
+										<img
+											src="./images/marketday2-4.jpg"
+											alt="marketday2-4"
+											loading="lazy"
+											decoding="async" />
+									</picture>
+								</div>
+
+								<div class="swiper-slide">
+									<picture>
+										<source
+											srcset="./images/marketday2-5.avif"
+											type="image/avif" />
+										<img
+											src="./images/marketday2-5.jpg"
+											alt="marketday2-5"
+											loading="lazy"
+											decoding="async" />
+									</picture>
+								</div>
+							</div>
+
+							<div class="swiper-pagination"></div>
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						</div>
+
+						<p>
+							TK Kemurnian II kembali mengadakan kegiatan “Market
+							Day” untuk memberikan edukasi kepada siswa dan siswi
+							supaya dapat memahami berbagai jenis warna/bentuk
+							dari sayur dan buah, dan juga memahami cara
+							menggunakan uang untuk membeli sayur dan buah.
+						</p>
+					</div>
+				</div>
+
+				<hr />
+
+				<br />
+
+				<div class="row section-head">
+					<div class="twelve columns">
+						<h1>Other News and Events</h1>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="twelve columns">
+						<div
+							id="blog-wrapper"
+							class="bgrid-third mob-bgrid-whole group">
+							<article class="bgrid">
+								<a
+									href="art-day-tk-kemurnian-3-september-2022.html">
+									<picture>
+										<source
+                                        srcset="./images/art-day-tk-kemurnian-3/art-1.avif 1080w,
+                                                ./images/art-day-tk-kemurnian-3/art-1-540.avif 540w"
+                                            sizes="(max-width: 540px) 100vw, 540px"
+											type="image/avif" />
+										<img
+											src="./images/art-day-tk-kemurnian-3/art-1.jpg"
+											alt="art-1"
+											loading="lazy"
+											decoding="async" /> </picture
+								></a>
+
+								<h5>23rd September 2022</h5>
+								<h3>
+									<a
+										href="art-day-tk-kemurnian-3-september-2022.html"
+										>TK Kemurnian III : Art Day</a
+									>
+								</h3>
+
+								<p>
+									TK Kemurnian III has held a small
+									competition supported by Fabercastell and
+									UHU Indonesia where students are required to
+									coloring and pasting a certain...
+								</p>
+							</article>
+
+							<article class="bgrid">
+								<a
+									href="vaksinasi-sd-kemurnian-2-september-2022.html">
+									<picture>
+										<source
+                                        srcset="./images/vaksinasi-sk2-16-september-2022/vaksin-1.avif 1080w,
+                                                ./images/vaksinasi-sk2-16-september-2022/vaksin-1-540.avif 540w"
+                                            sizes="(max-width: 540px) 100vw, 540px"
+											type="image/avif" />
+										<img
+											src="./images/vaksinasi-sk2-16-september-2022/vaksin-1.jpg"
+											alt="vaksin-1"
+											loading="lazy"
+											decoding="async" />
+									</picture>
+								</a>
+
+								<h5>16 September 2022</h5>
+								<h3>
+									<a
+										href="vaksinasi-sd-kemurnian-2-september-2022.html"
+										>Pelaksanaan Vaksinasi MR dan HPV SD
+										Kemurnian II</a
+									>
+								</h3>
+
+								<p>
+									Sekolah Kemurnian kembali mengadakan
+									imunisasi dan vaksinasi MR bagi siswa kelas
+									1 dan HPV bagi siswi kelas 5 dan 6 di
+									sekolah...
+								</p>
+							</article>
+
+							<article class="bgrid">
+								<a href="upcycling-workshop.html">
+									<picture>
+										<source
+                                        srcset="./images/chatime_cover.avif 1080w,
+                                                ./images/chatime_cover-540.avif 540w"
+                                            sizes="(max-width: 540px) 100vw, 540px"
+											type="image/avif" />
+										<img
+											src="./images/chatime_cover.jpeg"
+											alt="chatime_cover"
+											loading="lazy"
+											decoding="async" />
+									</picture>
+								</a>
+
+								<h5>26 Agustus 2022</h5>
+								<h3>
+									<a href="upcycling-workshop.html"
+										>Upcycling Workshop - SMP Kemurnian
+										II</a
+									>
+								</h3>
+
+								<p>
+									Pada tanggal 26 Agustus 2022, SMP Kemurnian
+									II kedatangan tamu dari Plasticpay dalam
+									rangka untuk edukasi mengenai...
+								</p>
+							</article>
+						</div>
+					</div>
+				</div>
+
+				<br />
+
+				<a class="button stroke" href="news.html">More News</a>
+			</div>
+		</section>
+		<!-- /content -->
+
+		<!-- Footer
+   ================================================== -->
+		<footer>
+			<div class="row">
+				<br />
+
+				<div class="mob-whole six columns left">
+					<picture>
+						<source
+                            srcset="./images/cambridge.avif 1080w,
+                                    ./images/cambridge-small.avif 540w"
+                            sizes="(max-width: 540px) 100vw, 540px"
+							type="image/avif" />
+						<img
+							src="./images/cambridge.png"
+							alt="cambridge"
+							loading="lazy"
+							decoding="async" />
+					</picture>
+				</div>
+				<!-- /left -->
+
+				<div class="mob-whole six columns right">
+					<h3 class="contact">Follow Us</h3>
+
+					<ul class="footer-links-soi">
+						<li>
+							<a  title="Facebook"
+								href="https://web.facebook.com/sekolah.kemurnian?_rdc=1&_rdr"
+								target="_blank"
+								><i class="fa fa-facebook"></i
+							></a>
+						</li>
+						<li>
+							<a  title="Instagram"
+								href="https://www.instagram.com/accounts/login/?next=/sekolah.kemurnian/"
+								target="_blank"
+								><i class="fa fa-instagram"></i
+							></a>
+						</li>
+						<li>
+							<a  title="Youtube"
+								href="https://www.youtube.com/results?search_query=sekolah+kemurnian"
+								target="_blank"
+								><i class="fa fa-youtube"></i
+							></a>
+						</li>
+					</ul>
+				</div>
+				<!-- /right -->
+
+				<div id="go-top">
+					<a
+						class="smoothscroll"
+						title="Back to Top"
+						href="#event-page"
+						><span>Top</span><i class="fa fa-long-arrow-up"></i
+					></a>
+				</div>
+
+				<div id="contact">
+					<a
+						href="https://linktr.ee/sekolahkemurnian"
+						target="_blank">
+						<picture>
+							<source
+								srcset="./images/whatsapp.avif"
+								type="image/avif" />
+							<img
+								src="./images/whatsapp.png"
+								alt="whatsapp"
+								loading="lazy"
+								decoding="async" />
+						</picture>
+					</a>
+				</div>
+
+				<div id="aimsis-home">
+					<a
+						class="buttonn stroke"
+						href="https://aimsis.com/"
+						target="_blank"
+						>aimsis</a
+					>
+				</div>
+
+				<div id="sound">
+					<audio id="mars" controls>
+						<source
+							src="mars-kemurnian-jaya.mp3"
+							type="audio/mpeg" />
+					</audio>
+				</div>
+			</div>
+			<!-- /row -->
+
+			<div class="row">
+				<div class="twelve columns">
+					<p>
+						Copyright © 2022 Sekolah Kemurnian. All rights reserved.
+						| Design & development by Digital One
+					</p>
+				</div>
+			</div>
+		</footer>
+		<!-- /footer -->
+
+		<!-- Java Script
+   ================================================== -->
+		<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+		<script
+			async
+			src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+		<script>
+			window.jQuery ||
+				document.write(
+					'<script src="js/jquery-1.10.2.min.js"><\/script>'
+				);
+		</script>
+		<script
+			type="text/javascript"
+			src="js/jquery-migrate-1.2.1.min.js"></script>
+		<script src="js/jquery.flexslider.js"></script>
+		<script src="js/jquery.fittext.js"></script>
+		<script src="js/backstretch.js"></script>
+		<script src="js/waypoints.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/autocomplete.js"></script>
+		<script src="js/autocompletemobile.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+		<script defer>
+			const swiper = new Swiper('.swiper', {
+				autoplay: {
+					delay: 5000,
+					disableOnInteraction: false,
+				},
+
+				loop: true,
+
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+				},
+
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<!--[if lt IE 8]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+
+    <!--- Basic Page Needs
+   ================================================== -->
+    <title>News</title>
+    <meta name="description" content="Valentine's Day 2023" />
+    <meta name="author" content="" />
+
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <!-- Mobile Specific Metas
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css?ver=1.1" type="text/css" />
+    <link rel="stylesheet" href="css/main.css?ver=1.4" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="css/media-queries.css?ver=1.5"
+      type="text/css"
+    />
+
+    <!-- Script
+   =================================================== -->
+    <script defer src="js/modernizr.js"></script>
+
+    <!-- Favicons
+	=================================================== -->
+    <link rel="shortcut icon" href="logo.png" />
+
+    <!-- Swiper JS
+	=================================================== -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <div id="top"></div>
+    <div id="preloader">
+      <div id="status">
+        <img src="images/loader.gif" height="60" width="60" alt="" />
+        <div class="loader">Loading...</div>
+      </div>
+    </div>
+
+    <!-- Header
+   =================================================== -->
+    <header id="main-header" style="background: rgb(43, 40, 40)">
+      <div class="row header-inner">
+        <div class="logo">
+          <a href="index.php" title="Home Page"></a>
+        </div>
+
+        <nav id="nav-wrap">
+          <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+            <span class="menu-text">Show Menu</span>
+            <span class="menu-icon"></span>
+          </a>
+          <a class="mobile-btn" href="#" title="Hide navigation">
+            <span class="menu-text">Hide Menu</span>
+            <span class="menu-icon"></span>
+          </a>
+
+          <ul id="nav" class="nav">
+            <form class="desktop-hidden" autocomplete="off" action="">
+              <div
+                class="autocomplete"
+                style="display: inline-block; position: relative"
+              >
+                <input id="myInputMob" type="search" placeholder="Search" />
+              </div>
+              <button
+                title="mobile search button"
+                id="search-button-mob"
+                type="button"
+                onclick="openPageMob()"
+              >
+                <img
+                  src="./images/search.png"
+                  alt="search"
+                  title="search"
+                  width="51"
+                  height="51"
+                />
+              </button>
+            </form>
+
+            <li><a href="index.php#hero">Home.</a></li>
+            <li><a href="index.php#services">School.</a></li>
+            <li><a href="index.php#ppdb">PPDB.</a></li>
+            <li><a href="index.php#kurikulum">Curriculum.</a></li>
+            <li><a href="index.php#about">About.</a></li>
+            <li class="current"><a href="index.php#journal">News.</a></li>
+            <li><a href="index.php#contact">Contact.</a></li>
+
+            <form class="mobile-hidden" autocomplete="off" action="">
+              <div
+                class="autocomplete"
+                style="display: inline-block; position: relative"
+              >
+                <input id="myInput" type="search" placeholder="Search" />
+              </div>
+              <button
+                title="search button"
+                name="search"
+                id="search-button"
+                type="button"
+                onclick="openPage()"
+              >
+                <img
+                  src="./images/search.png"
+                  width="51"
+                  height="51"
+                  alt="search"
+                  title="search"
+                />
+              </button>
+            </form>
+          </ul>
+        </nav>
+        <!-- /nav-wrap -->
+      </div>
+      <!-- /header-inner -->
+    </header>
+
+    <!-- Content
+   ================================================== -->
+    <section id="event-page">
+      <div class="content">
+        <div class="row section-head">
+          <div class="twelve columns">
+            <h1>Valentine Day - SMA Kemurnian II</h1>
+
+            <h2><u>14 Februari 2023</u></h2>
+
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <!-- <img src=".\images/valentine-day/valentine-01.jpg" /> -->
+
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/valentine-day/valentine-01.avif     1080w,
+                        ./images/valentine-day/valentine-01-540.avif  540w
+                      "
+                      sizes="(max-width: 600px) 100vw, 540px"
+                      type="image/avif"
+                    />
+                    <img
+                      src="./images/valentine-day/valentine-01.webp"
+                      alt="valentine-01"
+                      width="1080"
+                      height="1080"
+                      decoding="async"
+                    />
+                  </picture>
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- <img src=".\images/valentine-day/valentine-02.jpg" /> -->
+
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/valentine-day/valentine-02.avif     1080w,
+                        ./images/valentine-day/valentine-02-540.avif  540w
+                      "
+                      sizes="(max-width: 600px) 100vw, 540px"
+                      type="image/avif"
+                    />
+                    <img
+                      src="./images/valentine-day/valentine-02.webp"
+                      alt="valentine-02"
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- <img src=".\images/valentine-day/valentine-03.jpg" /> -->
+
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/valentine-day/valentine-03.avif     1080w,
+                        ./images/valentine-day/valentine-03-540.avif  540w
+                      "
+                      sizes="(max-width: 600px) 100vw, 540px"
+                      type="image/avif"
+                    />
+                    <img
+                      src="./images/valentine-day/valentine-03.webp"
+                      alt="valentine-03"
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- <img src=".\images/valentine-day/valentine-04.jpg" /> -->
+
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/valentine-day/valentine-04.avif     1080w,
+                        ./images/valentine-day/valentine-04-540.avif  540w
+                      "
+                      sizes="(max-width: 600px) 100vw, 540px"
+                      type="image/avif"
+                    />
+                    <img
+                      src="./images/valentine-day/valentine-04.webp"
+                      alt="valentine-04"
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- <img src=".\images/valentine-day/valentine-05.jpg" /> -->
+
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/valentine-day/valentine-05.avif     1080w,
+                        ./images/valentine-day/valentine-05-540.avif  540w
+                      "
+                      sizes="(max-width: 600px) 100vw, 540px"
+                      type="image/avif"
+                    />
+                    <img
+                      src="./images/valentine-day/valentine-05.webp"
+                      alt="valentine-05"
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- <img src=".\images/valentine-day/valentine-06.jpg" /> -->
+
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/valentine-day/valentine-06.avif     1080w,
+                        ./images/valentine-day/valentine-06-540.avif  540w
+                      "
+                      sizes="(max-width: 600px) 100vw, 540px"
+                      type="image/avif"
+                    />
+                    <img
+                      src="./images/valentine-day/valentine-06.webp"
+                      alt="valentine-06"
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- <img src=".\images/valentine-day/valentine-07.jpg" /> -->
+
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/valentine-day/valentine-07.avif     1080w,
+                        ./images/valentine-day/valentine-07-540.avif  540w
+                      "
+                      sizes="(max-width: 600px) 100vw, 540px"
+                      type="image/avif"
+                    />
+                    <img
+                      src="./images/valentine-day/valentine-07.webp"
+                      alt="valentine-07"
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- <img src=".\images/valentine-day/valentine-08.jpg" /> -->
+
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/valentine-day/valentine-08.avif     1080w,
+                        ./images/valentine-day/valentine-08-540.avif  540w
+                      "
+                      sizes="(max-width: 600px) 100vw, 540px"
+                      type="image/avif"
+                    />
+                    <img
+                      src="./images/valentine-day/valentine-08.webp"
+                      alt="valentine-08"
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- <img src=".\images/valentine-day/valentine-09.jpg" /> -->
+
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/valentine-day/valentine-09.avif     1080w,
+                        ./images/valentine-day/valentine-09-540.avif  540w
+                      "
+                      sizes="(max-width: 600px) 100vw, 540px"
+                      type="image/avif"
+                    />
+                    <img
+                      src="./images/valentine-day/valentine-09.webp"
+                      alt="valentine-09"
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </div>
+
+                <div class="swiper-slide">
+                  <!-- <img src=".\images/valentine-day/valentine-10.jpg" /> -->
+
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/valentine-day/valentine-10.avif     1080w,
+                        ./images/valentine-day/valentine-10-540.avif  540w
+                      "
+                      sizes="(max-width: 600px) 100vw, 540px"
+                      type="image/avif"
+                    />
+                    <img
+                      src="./images/valentine-day/valentine-10.webp"
+                      alt="valentine-10"
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </div>
+              </div>
+
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+
+            <p>
+              14 Februari dirayakan sebagai hari Valentine atau hari Kasih
+              Sayang. Kasih sayang tidak hanya kepada pasangan tetapi kepada
+              semua orang yang dijumpai dan sangat membutuhkan.
+            </p>
+
+            <p>
+              Perayaan Valentine yang semestinya harus lebih banyak bernilai
+              positif. Perayaan valentine yang memberi kemanfaatan bagi sesama
+              sesuai dengan esensi 'kasih sayang'. Yaitu sikap saling
+              menghormati dan mengasihi semua ciptaan Tuhan dengan hati nurani
+              yang luhur tanpa membedakan - bedakan. Jika ingin merayakan tentu
+              bukan secara konsumtif dan hura-hura. Namun berbagi kasih ke panti
+              asuhan, menghibur orang yang sedang berduka ataupun berbagi
+              kebersamaan dengan kakek-nenek di panti jompo akan lebih bermakna.
+              Dan untuk ini, bisa dilakukan kapan saja, tidak harus menunggu 14
+              Februari.
+            </p>
+
+            <figure>
+              <!-- <img src="/images/valentine-day/valentine-12.jpg" alt="" /> -->
+              <picture>
+                <source
+                  srcset="
+                    ./images/valentine-day/valentine-12.avif     1200w,
+                    ./images/valentine-day/valentine-12-600.avif  600w
+                  "
+                  sizes="(max-width: 600px) 100vw, 600px"
+                  type="image/avif"
+                />
+                <img
+                  src="./images/valentine-day/valentine-12.webp"
+                  alt="valentine-12"
+                  width="1200"
+                  height="800"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
+            </figure>
+
+            <p>
+              Hari valentine bagi para remaja bisa membawa semangat kebersamaan
+              alias keakuran dengan antar siswa untuk menolak bentuk kekerasan
+              seperti tawuran ataupun bullying.
+            </p>
+
+            <p>
+              Perayaan Velentine kali ini di merupakan program dari OSIS SMA
+              Kemurnian II, dengan kegiatan yang sederhana yakni dengan lomba
+              makan mie disuapi oleh partner dengan mata tertutup. perlombaan
+              tersebut dinamai "Back Hug Indomie". Suasana terasa meriah, lombah
+              tidak hanya di ikuti oleh siswa saja tetapi guru-guru juga
+              terlibat dalam perlombaan.
+            </p>
+
+            <figure>
+              <!-- <img
+                src="\images/valentine-day/valentine-11.jpg"
+                alt="qlive-19"
+              /> -->
+              <picture>
+                <source
+                  srcset="
+                    ./images/valentine-day/valentine-11.avif     1200w,
+                    ./images/valentine-day/valentine-11-600.avif  600w
+                  "
+                  sizes="(max-width: 600px) 100vw, 600px"
+                  type="image/avif"
+                />
+                <img
+                  src="./images/valentine-day/valentine-11.webp"
+                  alt="valentine-11"
+                  width="1200"
+                  height="800"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
+              <figcaption>Peserta lomba back hug Indomie.</figcaption>
+            </figure>
+            <hr />
+            <br />
+
+            <div class="row section-head">
+              <div class="twelve columns">
+                <h1>Other News and Events</h1>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="twelve columns">
+                <div
+                  id="blog-wrapper"
+                  class="bgrid-third mob-bgrid-whole group"
+                >
+                  <article class="bgrid">
+                    <a href="qlive-2023.html">
+                      <!-- <img src="./images/qlive-2023/qlive-1.jpg" alt="" /> -->
+                      <picture>
+                        <source
+                          srcset="
+                            ./images/qlive-2023/qlive-1.avif     1080w,
+                            ./images/qlive-2023/qlive-1-540.avif  540w
+                          "
+                          sizes="(max-width: 600px) 100vw, 540px"
+                          type="image/avif"
+                        />
+                        <img
+                          src="./images/qlive-2023/qlive-1.webp"
+                          alt="qlive-1"
+                          width="1080"
+                          height="1080"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </picture>
+                    </a>
+                    <h5>10 Februari 2023</h5>
+                    <h3>
+                      <a href="qlive-2023.html"
+                        >Qlive 2023 (Cianjur) - SMA Kemurnian II</a
+                      >
+                    </h3>
+
+                    <p>
+                      SISWA kelas XII SMA Kemurnian II harus meninggalkan “zona
+                      nyaman”. QLive merupakan kegiatan yang bermanfaat untuk
+                      mengenali...
+                    </p>
+                  </article>
+
+                  <article class="bgrid">
+                    <a href="osis-sma-2023.html">
+                      <!-- <img
+                        src="./images/osis-sma-2023/osis-sma2023-1.jpg"
+                        alt=""
+                      /> -->
+                      <picture>
+                        <source
+                          srcset="
+                            ./images/osis-sma-2023/osis-sma2023-1.avif     1080w,
+                            ./images/osis-sma-2023/osis-sma2023-1-540.avif  540w
+                          "
+                          sizes="(max-width: 600px) 100vw, 540px"
+                          type="image/avif"
+                        />
+                        <img
+                          src="./images/osis-sma-2023/osis-sma2023-1.webp"
+                          alt="osis-sma2023-1"
+                          width="1080"
+                          height="1080"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </picture>
+                    </a>
+                    <h5>06 Februari 2023</h5>
+                    <h3>
+                      <a href="osis-sma-2023.html"
+                        >Ketua OSIS dan Wakil Ketua OSIS Periode 2023-2024 - SMA
+                        Kemurnian II</a
+                      >
+                    </h3>
+
+                    <p>
+                      OSIS adalah kepanjangan dari Organisasi Siswa Intra
+                      Sekolah. Dalam strukturnya, administrator memilih siswa di
+                      dalam sekolah...
+                    </p>
+                  </article>
+
+                  <article class="bgrid">
+                    <a href="q-lead-2023.html">
+                      <!-- <img src="./images/q-lead-2023/qlead01.jpg" alt="" /> -->
+                      <picture>
+                        <source
+                          srcset="
+                            ./images/q-lead-2023/qlead01.avif     1080w,
+                            ./images/q-lead-2023/qlead01-540.avif  540w
+                          "
+                          sizes="(max-width: 600px) 100vw, 540px"
+                          type="image/avif"
+                        />
+                        <img
+                          src="./images/q-lead-2023/qlead01.webp"
+                          alt="qlead01"
+                          width="1080"
+                          height="1080"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </picture>
+                    </a>
+                    <h5>03 Februari 2023</h5>
+                    <h3>
+                      <a href="q-lead-2023.html"
+                        >Q-Lead 2023 - SMA KEMURNIAN II</a
+                      >
+                    </h3>
+                    <p>
+                      SMA Kemurnian mengadakan kegiatan camping dengan tema
+                      QLead yang bekerja sama dengan...
+                    </p>
+                  </article>
+                </div>
+              </div>
+            </div>
+
+            <br />
+
+            <a class="button stroke" href="news.html">More News</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /content -->
+
+    <!-- Footer
+   ================================================== -->
+    <footer>
+      <div class="row">
+        <br />
+
+        <div class="mob-whole six columns left">
+          <picture>
+            <source
+              srcset="
+                ./images/cambridge.avif       2089w,
+                ./images/cambridge-small.avif 1045w
+              "
+              sizes="(max-width: 540px) 100vw, 540px"
+              type="image/avif"
+            />
+            <img
+              src="./images/cambridge.webp"
+              alt="cambridge"
+              width="2089"
+              height="728"
+              loading="lazy"
+              decoding="async"
+            />
+          </picture>
+        </div>
+        <!-- /left -->
+
+        <div class="mob-whole six columns right">
+          <h3 class="contact">Follow Us</h3>
+
+          <ul class="footer-links-soi">
+            <li>
+              <a
+                title="Facebook"
+                href="https://web.facebook.com/sekolah.kemurnian?_rdc=1&_rdr"
+                target="_blank"
+                ><i class="fa fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                title="Instagram"
+                href="https://www.instagram.com/accounts/login/?next=/sekolah.kemurnian/"
+                target="_blank"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                title="YouTube"
+                href="https://www.youtube.com/results?search_query=sekolah+kemurnian"
+                target="_blank"
+                ><i class="fa fa-youtube"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <!-- /right -->
+
+        <div id="go-top">
+          <a class="smoothscroll" title="Back to Top" href="#event-page"
+            ><span>Top</span><i class="fa fa-long-arrow-up"></i
+          ></a>
+        </div>
+
+        <div id="contact">
+          <a href="https://linktr.ee/sekolahkemurnian" target="_blank">
+            <picture>
+              <source srcset="./images/whatsapp.avif" type="image/avif" />
+              <img
+                src="./images/whatsapp.webp"
+                alt="whatsapp"
+                loading="lazy"
+                decoding="async"
+                width="1000"
+                height="1000"
+              />
+            </picture>
+          </a>
+        </div>
+
+        <div id="aimsis-home">
+          <a class="buttonn stroke" href="https://aimsis.com/" target="_blank"
+            >aimsis</a
+          >
+        </div>
+
+        <div id="sound">
+          <audio id="mars" controls>
+            <source src="mars-kemurnian-jaya.mp3" type="audio/mpeg" />
+          </audio>
+        </div>
+      </div>
+      <!-- /row -->
+
+      <div class="row">
+        <div class="twelve columns">
+          <p>
+            Copyright © 2022 Sekolah Kemurnian. All rights reserved. | Design &
+            development by Digital One
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- /footer -->
+
+    <!-- Java Script
+   ================================================== -->
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+    <script defer src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+      window.jQuery ||
+        document.write('<script src="js/jquery-1.10.2.min.js"><\/script>');
+    </script>
+    <script
+      defer
+      type="text/javascript"
+      src="js/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script defer src="js/jquery.flexslider.js"></script>
+    <script defer src="js/jquery.fittext.js"></script>
+    <script defer src="js/backstretch.js"></script>
+    <script defer src="js/waypoints.js"></script>
+    <script defer src="js/main.js"></script>
+    <script defer src="js/autocomplete.js"></script>
+    <script defer src="js/autocompletemobile.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script defer>
+      const swiper = new Swiper(".swiper", {
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+
+        loop: true,
+
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

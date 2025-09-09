@@ -1,0 +1,35 @@
+
+                    <article class="bgrid sk2">
+                        <a href="supermi-gpp-2023.html">
+                        <picture>
+                            <source
+                            srcset="
+                                ./images/supermi-gpp-2023/supermi_gpp_0.avif     1080w,
+                                ./images/supermi-gpp-2023/supermi_gpp_0-540.avif  540w
+                            "
+                            sizes="(max-width: 600px) 100vw, 540px"
+                            type="image/avif"
+                            />
+                            <img
+                            src="./images/supermi-gpp-2023/supermi_gpp_0.webp"
+                            alt="supermi_gpp_0"
+                            loading="lazy"
+                            decoding="async"
+                            width="1080"
+                            height="1080"
+                            />
+                        </picture>
+                        </a>
+                        <h5>7 Juni 2023</h5>
+                        <h3>
+                        <a href="supermi-gpp-2023.html">
+                            SuperMi GPP (Gembira Penuh Permainan) - SD Kemurnian II
+                        </a>
+                        </h3>
+
+                        <p>
+                        Pada hari Rabu, 7 Juni 2023, SD Kemurnian II kedatangan tamu
+                        yaitu SuperMi yang menyelenggarakan acara GPP (Gembira Penuh
+                        Permainan) di Sekolah Kemurnian II...
+                        </p>
+                    </article>

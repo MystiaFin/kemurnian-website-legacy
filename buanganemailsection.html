@@ -1,0 +1,59 @@
+ <div class="row form-section">
+
+            <div id="contact-form" class="twelve columns">
+
+                <form action="" method="POST">
+
+                    <fieldset>
+
+                        <div class="row">
+
+                            <div class="six columns mob-whole">
+                                <input type="text" name="contactName" placeholder="Your Name" required />
+                            </div>
+
+                            <div class="six columns mob-whole">
+                                <input type="tel" name="contactPhone" placeholder="Phone Number" pattern="[0-9]+" required>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="six columns mob-whole">
+                                <input type="email" name="contactEmail" placeholder="Email" required>
+                            </div>
+
+                            <div class="six columns mob-whole">
+                                <input type="text" name="contactSubject" placeholder="Subject" required />
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="twelve columns">
+                                <textarea name="contactMessage" placeholder="Your Message" rows="10" cols="50" required></textarea>
+                            </div>
+
+                        </div>
+
+                        <div>
+                            <button type="submit" name="submit" class="submit full-width">Send Message</button>
+                        </div>
+
+                    </fieldset>
+
+                </form> <!-- /contactForm -->
+                <!--button ppdb -->
+                <br class="br-hidden">
+			  <br class="br-hidden">
+			 <p><a class="button stroke" href="promo-open-24.html">Pelajari Selengkapnya</a></p>
+
+				<br> 
+
+                <!-- message box -->
+                <div id="message-warning"></div>
+                <div id="message-success">
+                    <i class="fa fa-check"></i>Your message was sent, thank you!<br />
+                </div>

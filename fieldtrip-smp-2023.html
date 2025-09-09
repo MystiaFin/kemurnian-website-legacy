@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<!--[if lt IE 8]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+  <!--<![endif]-->
+
+  <head>
+    <meta charset="utf-8" />
+
+    <!--- Basic Page Needs
+   ================================================== -->
+    <title>News</title>
+    <meta name="description" content="Field Trip SMP 2023" />
+    <meta name="author" content="" />
+
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <!-- Mobile Specific Metas
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css?ver=1.1" type="text/css" />
+    <link rel="stylesheet" href="css/main.css?ver=1.4" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="css/media-queries.css?ver=1.5"
+      type="text/css"
+    />
+
+    <!-- Script
+   =================================================== -->
+    <script defer src="js/modernizr.js"></script>
+
+    <!-- Favicons
+	=================================================== -->
+    <link rel="shortcut icon" href="logo.png" />
+
+    <!-- Swiper JS
+	=================================================== -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <div id="top"></div>
+    <div id="preloader">
+      <div id="status">
+        <img src="images/loader.gif" height="60" width="60" alt="" />
+        <div class="loader">Loading...</div>
+      </div>
+    </div>
+
+    <!-- Header
+   =================================================== -->
+    <header id="main-header" style="background: rgb(43, 40, 40)">
+      <div class="row header-inner">
+        <div class="logo">
+          <a href="index.php" title="Home Page"></a>
+        </div>
+
+        <nav id="nav-wrap">
+          <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+            <span class="menu-text">Show Menu</span>
+            <span class="menu-icon"></span>
+          </a>
+          <a class="mobile-btn" href="#" title="Hide navigation">
+            <span class="menu-text">Hide Menu</span>
+            <span class="menu-icon"></span>
+          </a>
+
+          <ul id="nav" class="nav">
+            <form class="desktop-hidden" autocomplete="off" action="">
+              <div
+                class="autocomplete"
+                style="display: inline-block; position: relative"
+              >
+                <input id="myInputMob" type="search" placeholder="Search" />
+              </div>
+              <button
+                title="mobile search button"
+                id="search-button-mob"
+                type="button"
+                onclick="openPageMob()"
+              >
+                <img
+                  src="./images/search.png"
+                  alt="search"
+                  title="search"
+                  width="51"
+                  height="51"
+                />
+              </button>
+            </form>
+
+            <li><a href="index.php#hero">Home.</a></li>
+            <li><a href="index.php#services">School.</a></li>
+            <li><a href="index.php#ppdb">PPDB.</a></li>
+            <li><a href="index.php#kurikulum">Curriculum.</a></li>
+            <li><a href="index.php#about">About.</a></li>
+            <li class="current"><a href="index.php#journal">News.</a></li>
+            <li><a href="index.php#contact">Contact.</a></li>
+
+            <form class="mobile-hidden" autocomplete="off" action="">
+              <div
+                class="autocomplete"
+                style="display: inline-block; position: relative"
+              >
+                <input id="myInput" type="search" placeholder="Search" />
+              </div>
+              <button
+                title="search button"
+                id="search-button"
+                type="button"
+                onclick="openPage()"
+              >
+                <img
+                  src="./images/search.png"
+                  width="51"
+                  height="51"
+                  alt="search"
+                  title="search"
+                />
+              </button>
+            </form>
+          </ul>
+        </nav>
+        <!-- /nav-wrap -->
+      </div>
+      <!-- /header-inner -->
+    </header>
+
+    <!-- Content
+   ================================================== -->
+    <section id="event-page">
+      <div class="content">
+        <div class="row section-head">
+          <div class="twelve columns">
+            <h1>Field Trip ke Taman Budaya di Sentul City</h1>
+
+            <h2><u>20 Maret 2023</u></h2>
+
+            <div>
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <picture>
+                      <source
+                        srcset="
+                          .\images/fieldtrip-smp-2023/field_trip_smp_2023_1.avif     1080w,
+                          .\images/fieldtrip-smp-2023/field_trip_smp_2023_1-540.avif  540w
+                        "
+                        sizes="(max-width: 600px) 100vw, 540px"
+                        type="image/avif"
+                      />
+                      <img
+                        src=".\images/fieldtrip-smp-2023/field_trip_smp_2023_1.webp"
+                        alt="field_trip_smp_2023_1"
+                        width="1080"
+                        height="1080"
+                        decoding="async"
+                      />
+                    </picture>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <picture>
+                      <source
+                        srcset="
+                          .\images/fieldtrip-smp-2023/field_trip_smp_2023_2.avif 1080w
+                        "
+                        type="image/avif"
+                        sizes="20vw"
+                      />
+                      <img
+                        src=".\images/fieldtrip-smp-2023/field_trip_smp_2023_2.webp"
+                        alt="field_trip_smp_2023_2"
+                        width="1080"
+                        height="1080"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </picture>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <picture>
+                      <source
+                        srcset="
+                          .\images/fieldtrip-smp-2023/field_trip_smp_2023_3.avif
+                        "
+                        type="image/avif"
+                        sizes="20vw"
+                      />
+                      <img
+                        src=".\images/fieldtrip-smp-2023/field_trip_smp_2023_3.webp"
+                        alt="field_trip_smp_2023_3"
+                        width="1080"
+                        height="1080"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </picture>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <picture>
+                      <source
+                        srcset="
+                          .\images/fieldtrip-smp-2023/field_trip_smp_2023_4.avif
+                        "
+                        type="image/avif"
+                        sizes="20vw"
+                      />
+                      <img
+                        src=".\images/fieldtrip-smp-2023/field_trip_smp_2023_4.webp"
+                        alt="field_trip_smp_2023_4"
+                        width="1080"
+                        height="1080"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </picture>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <picture>
+                      <source
+                        srcset="
+                          .\images/fieldtrip-smp-2023/field_trip_smp_2023_5.avif
+                        "
+                        type="image/avif"
+                        sizes="20vw"
+                      />
+                      <img
+                        src=".\images/fieldtrip-smp-2023/field_trip_smp_2023_5.webp"
+                        alt="field_trip_smp_2023_5"
+                        width="1080"
+                        height="1080"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </picture>
+                  </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+              <div>
+                <p>
+                  SMP Kemurnian I dan II mengadakan kegiatan
+                  <i>field trip</i> berupa <i>outbound</i> di Taman Budaya di
+                  Sentul City. Kegiatan ini diikuti oleh murid-murid kelas 8.
+                </p>
+
+                <p>
+                  Murid-murid tiba di Taman Budaya kira-kira pukul 8:30 pagi
+                  WIB. Kemudian mereka berkumpul di pendopo untuk melakukan
+                  <i>briefing</i>. <i>Briefing</i> dipandu oleh fasilitator dari
+                  Taman Budaya. Setelah <i>briefing</i>, para murid berfoto
+                  bersama.
+                </p>
+
+                <p>
+                  Berikutnya, para murid berbaris untuk melakukan upacara di
+                  tengah lapangan terbuka dengan dipimpin oleh salah seorang
+                  guru dan seorang prajurit TNI. Setelah itu para murid
+                  diarahkan lebih lanjut oleh prajurit untuk diajarkan yel-yel
+                  sebelum mereka beranjak ke lokasi <i>outbound</i> untuk
+                  memakai alat pengaman.
+                </p>
+                <p>
+                  Ada berbagai rintangan yang dilewati para murid dalam
+                  <i>outbound</i>, seperti
+                  <i
+                    >net bridge, snake bridge, burma buket, tyre swing, flying
+                    fox,</i
+                  >
+                  dsb. Ada pula permainan kecil yang juga bisa dimainkan oleh
+                  para murid yaitu <i>paintball</i>.
+                </p>
+                <p>
+                  Setelah para murid selesai bermain <i>outbound</i>, mereka
+                  kembali ke pendopo untuk diberikan medali sebagai tanda bahwa
+                  mereka telah mengikuti kegiatan <i>outbound</i> tersebut.
+                  Lalu, para murid diberikan makan siang sebelum pulang kembali
+                  ke sekolah.
+                </p>
+                <p></p>
+              </div>
+            </div>
+
+            <hr />
+
+            <br />
+
+            <div class="row section-head">
+              <div class="twelve columns">
+                <h1>Other News and Events</h1>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="twelve columns">
+                <div
+                  id="blog-wrapper"
+                  class="bgrid-third mob-bgrid-whole group"
+                >
+                  <article class="bgrid">
+                    <a href="fieldtrip-sd-2023.html">
+                      <picture>
+                        <source
+                          srcset="
+                            ./images/fieldtrip-sd-2023/foto_bareng.avif     1080w,
+                            ./images/fieldtrip-sd-2023/foto_bareng-540.avif  540w
+                          "
+                          sizes="(max-width: 600px) 100vw, 540px"
+                          type="image/avif"
+                        />
+                        <img
+                          src="./images/fieldtrip-sd-2023/foto_bareng.png"
+                          alt="foto_bareng"
+                          width="1080"
+                          height="1080"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </picture>
+                    </a>
+                    <h5>17 Februari 2023</h5>
+                    <h3>
+                      <a href="fieldtrip-sd-2023.html"
+                        >Field Trip Kelas 6 - SD Kemurnian I, Kemurnian II, dan
+                        Kemurnian III</a
+                      >
+                    </h3>
+
+                    <p>
+                      SD Kemurnian I, II, dan III mengadakan kegiatan
+                      <i>field trip</i> dengan berkunjung ke Taman Mini
+                      Indonesia Indah (TMII) di Jakarta Timur. Kegiatan ini
+                      diikuti oleh murid-murid kelas 6. Ada dua gedung yang
+                      dikunjungi dalam <i>field trip</i> kali ini, yaitu Museum
+                      IPTEK dan Teater Keong Emas.
+                    </p>
+                  </article>
+
+                  <article class="bgrid">
+                    <a href="pendalamaniman.html">
+                      <picture>
+                        <source
+                          srcset="
+                            ./images/pendalaman-iman/pendalaman_iman_poster.avif     1080w,
+                            ./images/pendalaman-iman/pendalaman_iman_poster-540.avif  540w
+                          "
+                          sizes="(max-width: 600px) 100vw, 540px"
+                          type="image/avif"
+                        />
+                        <img
+                          src="./images/pendalaman-iman/pendalaman_iman_poster.png"
+                          alt="pendalaman_iman_poster"
+                          width="1080"
+                          height="1080"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </picture>
+                    </a>
+                    <h5>15 Februari 2023</h5>
+                    <h3>
+                      <a href="pendalamaniman.html"
+                        >Pendalaman Iman - SD Kemurnian I, Kemurnian II dan
+                        Kemurnian III</a
+                      >
+                    </h3>
+
+                    <p>
+                      Sekolah Dasar Kemurnian I, II, dan III mengadakan kegiatan
+                      pendalaman iman untuk para murid yang duduk di kelas 1, 2,
+                      dan 3 pada hari Rabu, tanggal 15 Februari 2023...
+                    </p>
+                  </article>
+
+                  <article class="bgrid">
+                    <a href="bahasakasih.html">
+                      <picture>
+                        <source
+                          srcset="
+                            ./images/bahasakasih/bahasakasih-01.avif     1080w,
+                            ./images/bahasakasih/bahasakasih-01-540.avif  540w
+                          "
+                          sizes="(max-width: 600px) 100vw, 540px"
+                          type="image/avif"
+                        />
+                        <img
+                          src="./images/bahasakasih/bahasakasih-01.jpg"
+                          alt="bahasakasih-01"
+                          width="1080"
+                          height="1080"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </picture>
+                    </a>
+                    <h5>14 Februari 2023</h5>
+                    <h3>
+                      <a href="bahasakasih.html"
+                        >Seminar Bahasa Kasih - SD Kemurnian I, Kemurnian II dan
+                        Kemurnian III</a
+                      >
+                    </h3>
+
+                    <p>
+                      Indonesia sebagai bangsa yang berbudaya merupakan negara
+                      yang menjunjung tinggi akhlak mulia, nilai-nilai luhur,
+                      kearifan, dan budi pekerti...
+                    </p>
+                  </article>
+                </div>
+              </div>
+            </div>
+
+            <br />
+
+            <a class="button stroke" href="news.html">More News</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /content -->
+
+    <!-- Footer
+   ================================================== -->
+    <footer>
+      <div class="row">
+        <br />
+
+        <div class="mob-whole six columns left">
+          <picture>
+            <source
+              srcset="
+                ./images/cambridge.avif       2089w,
+                ./images/cambridge-small.avif 1045w
+              "
+              sizes="(max-width: 1045px) 100vw, 1045px"
+              type="image/avif"
+            />
+            <img
+              src="./images/cambridge.png"
+              alt="cambridge"
+              width="2089"
+              height="728"
+              loading="lazy"
+              decoding="async"
+            />
+          </picture>
+        </div>
+        <!-- /left -->
+
+        <div class="mob-whole six columns right">
+          <h3 class="contact">Follow Us</h3>
+
+          <ul class="footer-links-soi">
+            <li>
+              <a
+                title="Facebook"
+                href="https://web.facebook.com/sekolah.kemurnian?_rdc=1&_rdr"
+                target="_blank"
+                ><i class="fa fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                title="Instagram"
+                href="https://www.instagram.com/accounts/login/?next=/sekolah.kemurnian/"
+                target="_blank"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                title="YouTube"
+                href="https://www.youtube.com/results?search_query=sekolah+kemurnian"
+                target="_blank"
+                ><i class="fa fa-youtube"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <!-- /right -->
+
+        <div id="go-top">
+          <a class="smoothscroll" title="Back to Top" href="#event-page"
+            ><span>Top</span><i class="fa fa-long-arrow-up"></i
+          ></a>
+        </div>
+
+        <div id="contact">
+          <a href="https://linktr.ee/sekolahkemurnian" target="_blank">
+            <picture>
+              <source srcset="./images/whatsapp.avif" type="image/avif" />
+              <img
+                src="./images/whatsapp.webp"
+                alt="whatsapp"
+                width="1000"
+                height="1000"
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
+          </a>
+        </div>
+
+        <div id="aimsis-home">
+          <a class="buttonn stroke" href="https://aimsis.com/" target="_blank"
+            >aimsis</a
+          >
+        </div>
+
+        <div id="sound">
+          <audio id="mars" controls>
+            <source src="mars-kemurnian-jaya.mp3" type="audio/mpeg" />
+          </audio>
+        </div>
+      </div>
+      <!-- /row -->
+
+      <div class="row">
+        <div class="twelve columns">
+          <p>
+            Copyright © 2023 Sekolah Kemurnian. All rights reserved. | Design &
+            development by Digital One
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- /footer -->
+
+    <!-- Java Script
+   ================================================== -->
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+    <script defer src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+      window.jQuery ||
+        document.write('<script src="js/jquery-1.10.2.min.js"><\/script>');
+    </script>
+    <script
+      defer
+      type="text/javascript"
+      src="js/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script defer src="js/jquery.flexslider.js"></script>
+    <script defer src="js/jquery.fittext.js"></script>
+    <script defer src="js/backstretch.js"></script>
+    <script defer src="js/waypoints.js"></script>
+    <script defer src="js/main.js"></script>
+    <script defer src="js/autocomplete.js"></script>
+    <script defer src="js/autocompletemobile.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script defer>
+      const swiper = new Swiper(".swiper", {
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+
+        loop: true,
+
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

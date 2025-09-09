@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<!--[if lt IE 8]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+  <!--<![endif]-->
+
+  <head>
+    <meta charset="utf-8" />
+
+    <!--- Basic Page Needs
+   ================================================== -->
+    <title>News</title>
+    <meta name="description" content="Pendalaman Iman" />
+    <meta name="author" content="" />
+
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <!-- Mobile Specific Metas
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css?ver=1.1" type="text/css" />
+    <link rel="stylesheet" href="css/main.css?ver=1.4" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="css/media-queries.css?ver=1.5"
+      type="text/css"
+    />
+
+    <!-- Script
+   =================================================== -->
+    <script defer src="js/modernizr.js"></script>
+
+    <!-- Favicons
+	=================================================== -->
+    <link rel="shortcut icon" href="logo.png" />
+
+    <!-- Swiper JS
+	=================================================== -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <div id="top"></div>
+    <div id="preloader">
+      <div id="status">
+        <img src="images/loader.gif" height="60" width="60" alt="" />
+        <div class="loader">Loading...</div>
+      </div>
+    </div>
+
+    <!-- Header
+   =================================================== -->
+    <header id="main-header" style="background: rgb(43, 40, 40)">
+      <div class="row header-inner">
+        <div class="logo">
+          <a href="index.php" title="Home Page"></a>
+        </div>
+
+        <nav id="nav-wrap">
+          <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+            <span class="menu-text">Show Menu</span>
+            <span class="menu-icon"></span>
+          </a>
+          <a class="mobile-btn" href="#" title="Hide navigation">
+            <span class="menu-text">Hide Menu</span>
+            <span class="menu-icon"></span>
+          </a>
+
+          <ul id="nav" class="nav">
+            <form class="desktop-hidden" autocomplete="off" action="">
+              <div
+                class="autocomplete"
+                style="display: inline-block; position: relative"
+              >
+                <input id="myInputMob" type="search" placeholder="Search" />
+              </div>
+              <button
+                title="mobile search button"
+                id="search-button-mob"
+                type="button"
+                onclick="openPageMob()"
+              >
+                <img
+                  src="./images/search.png"
+                  alt="search"
+                  title="search"
+                  width="51"
+                  height="51"
+                />
+              </button>
+            </form>
+
+            <li><a href="index.php#hero">Home.</a></li>
+            <li><a href="index.php#services">School.</a></li>
+            <li><a href="index.php#ppdb">PPDB.</a></li>
+            <li><a href="index.php#kurikulum">Curriculum.</a></li>
+            <li><a href="index.php#about">About.</a></li>
+            <li class="current"><a href="index.php#journal">News.</a></li>
+            <li><a href="index.php#contact">Contact.</a></li>
+
+            <form class="mobile-hidden" autocomplete="off" action="">
+              <div
+                class="autocomplete"
+                style="display: inline-block; position: relative"
+              >
+                <input id="myInput" type="search" placeholder="Search" />
+              </div>
+              <button
+                title="search button"
+                name="search"
+                id="search-button"
+                type="button"
+                onclick="openPage()"
+              >
+                <img
+                  src="./images/search.png"
+                  width="51"
+                  height="51"
+                  alt="search"
+                  title="search"
+                />
+              </button>
+            </form>
+          </ul>
+        </nav>
+        <!-- /nav-wrap -->
+      </div>
+      <!-- /header-inner -->
+    </header>
+
+    <!-- Content
+   ================================================== -->
+    <section id="event-page">
+      <div class="content">
+        <div class="row section-head">
+          <div class="twelve columns">
+            <h1>
+              Pendalaman Iman "Anak Baik Berperilaku Santun dan Berakhlak Mulia"
+            </h1>
+
+            <h2><u>15 Februari 2023</u></h2>
+
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/pendalaman-iman/bu_guru_img_1.avif     1080w,
+                        ./images/pendalaman-iman/bu_guru_img_1-540.avif  540w
+                      "
+                      sizes="(max-width: 540px) 100vw, 540px"
+                      type="image/avif"
+                    />
+                    <img
+                      src="./images/pendalaman-iman/bu_guru_img_1.png"
+                      alt="bu_guru_img_1"
+                      width="1080"
+                      height="1080"
+                      decoding="async"
+                    />
+                  </picture>
+                </div>
+
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      srcset="./images/pendalaman-iman/bu_guru_img_2.avif"
+                      type="image/avif"
+                    />
+                    <img
+                      src="./images/pendalaman-iman/bu_guru_img_2.png"
+                      alt="bu_guru_img_2"
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </div>
+
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      srcset="./images/pendalaman-iman/pa_guru_img_1.avif"
+                      type="image/avif"
+                    />
+                    <img
+                      src="./images/pendalaman-iman/pa_guru_img_1.png"
+                      alt="pa_guru_img_1"
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </div>
+
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      srcset="./images/pendalaman-iman/pa_guru_img_2.avif"
+                      type="image/avif"
+                    />
+                    <img
+                      src="./images/pendalaman-iman/pa_guru_img_2.png"
+                      alt="pa_guru_img_2"
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </div>
+
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      srcset="./images/pendalaman-iman/pa_ustad_img_1.avif"
+                      type="image/avif"
+                    />
+                    <img
+                      src="./images/pendalaman-iman/pa_ustad_img_1.png"
+                      alt="pa_ustad_img_1"
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </div>
+
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      srcset="./images/pendalaman-iman/pa_ustad_img_2.avif"
+                      type="image/avif"
+                    />
+                    <img
+                      src="./images/pendalaman-iman/pa_ustad_img_2.png"
+                      alt="pa_ustad_img_2"
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </div>
+
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      srcset="./images/pendalaman-iman/frater_img_1.avif"
+                      type="image/avif"
+                    />
+                    <img
+                      src="./images/pendalaman-iman/frater_img_1.png"
+                      alt="frater_img_1"
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </div>
+
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/pendalaman-iman/frater_img_2.avif     1080w,
+                        ./images/pendalaman-iman/frater_img_2-540.avif  540w
+                      "
+                      sizes="(max-width: 540px) 100vw, 540px"
+                      type="image/avif"
+                    />
+                    <img
+                      src="./images/pendalaman-iman/frater_img_2.png"
+                      alt="frater_img_2"
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </div>
+              </div>
+
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+
+            <p>
+              Sekolah Dasar Kemurnian I, II, dan III mengadakan kegiatan
+              pendalaman iman untuk para murid yang duduk di kelas 1, 2, dan 3
+              pada hari Rabu, tanggal 15 Februari 2023. Kegiatan itu
+              dilaksanakan di ballroom SD Kemurnian II dari pukul 9 pagi hingga
+              12 siang WIB. Tema yang diusung pada kegiatan tersebut adalah
+              “Anak Baik Berperilaku Santun dan Berakhlak Mulia”. Kegiatan
+              pendalaman iman dibawakan oleh empat orang dari empat agama yang
+              berbeda, dan dilaksanakan secara terpisah di dalam ruangan-ruangan
+              yang berbeda.
+            </p>
+
+            <ol style="text-align: left">
+              <li>
+                Murid-murid beragama Islam dipandu oleh Bapak Supardi, S.Pd.
+                yang juga dikenal sebagai Ustad Abi;
+              </li>
+              <li>
+                Murid-murid beragama Kristen dipandu oleh Ibu Rita Gunawan;
+              </li>
+              <li>
+                Murid-murid beragama Katolik dipandu oleh Frater Christoforus
+                Bimo, dan
+              </li>
+              <li>
+                Murid-murid beragama Buddha dipandu oleh Bapak Erik Wijaya,
+                M.Si.
+              </li>
+            </ol>
+
+            <figure>
+              <picture>
+                <source
+                  srcset="
+                    ./images/pendalaman-iman/bu_guru_img_1.avif     1080w,
+                    ./images/pendalaman-iman/bu_guru_img_1-540.avif  540w
+                  "
+                  sizes="(max-width: 540px) 100vw, 540px"
+                  type="image/avif"
+                />
+                <img
+                  src="./images/pendalaman-iman/bu_guru_img_1.png"
+                  alt="bu_guru_img_1"
+                  width="1080"
+                  height="1080"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
+
+              <p>
+                Para pemandu memberikan arahan-arahan kepada para murid melalui
+                berbagai cara, seperti berkhotbah, berbagi cerita, dan
+                berdiskusi. Para murid juga diajak bernyanyi dan menggerakkan
+                badan agar mereka tetap bersemangat dalam melakukan kegiatan
+                tersebut. Setelah kegiatan ini berakhir, murid-murid diharapkan
+                dapat semakin memahami dan mampu menerapkan perilaku santun dan
+                menunjukkan akhlak yang mulia kepada orang-orang di sekitarnya,
+                seperti teman-teman, guru-guru, keluarga, dan masyarakat.
+              </p>
+
+              <picture>
+                <source
+                  srcset="
+                    ./images/pendalaman-iman/frater_img_2.avif     1080w,
+                    ./images/pendalaman-iman/frater_img_2-540.avif  540w
+                  "
+                  sizes="(max-width: 540px) 100vw, 540px"
+                  type="image/avif"
+                />
+                <img
+                  src="./images/pendalaman-iman/frater_img_2.png"
+                  alt="frater_img_2"
+                  width="1080"
+                  height="1080"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
+            </figure>
+          </div>
+        </div>
+
+        <hr />
+
+        <br />
+
+        <div class="row section-head">
+          <div class="twelve columns">
+            <h1>Other News and Events</h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="twelve columns">
+            <div id="blog-wrapper" class="bgrid-third mob-bgrid-whole group">
+              <article class="bgrid">
+                <a href="be-kind-be-smart.html">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/be-kind-be-smart/bekindbesmart-cover.avif     1080w,
+                        ./images/be-kind-be-smart/bekindbesmart-cover-540.avif  540w
+                      "
+                      sizes="(max-width: 540px) 100vw, 540px"
+                      type="image/avif"
+                    />
+                    <img
+                      src="./images/be-kind-be-smart/bekindbesmart-cover.jpg"
+                      alt="bekindbesmart-cover"
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </a>
+
+                <h5>20 Januari 2023</h5>
+                <h3>
+                  <a href="be-kind-be-smart.html"
+                    >Motivation Learning "Be Kind Be Smart"</a
+                  >
+                </h3>
+
+                <p>
+                  Peserta didik kelas VI SD Kemurnian I, II, & III berkesempatan
+                  hadir dalam kegiatan motivasi belajar, peserta didik
+                  dibekali...
+                </p>
+              </article>
+
+              <article class="bgrid">
+                <a href="imlek2023.html">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/Imlek-2023-tkkmn123/imlek_tkkmn1_01.avif     1080w,
+                        ./images/Imlek-2023-tkkmn123/imlek_tkkmn1_01-540.avif  540w
+                      "
+                      sizes="(max-width: 540px) 100vw, 540px"
+                      type="image/avif"
+                    />
+                    <img
+                      src="./images/Imlek-2023-tkkmn123/imlek_tkkmn1_01.jpg"
+                      alt="imlek_tkkmn1_01"
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </a>
+
+                <h5>25 Januari 2023</h5>
+                <h3><a href="imlek2023.html">Tahun Baru Imlek 2023</a></h3>
+
+                <p>
+                  Sekolah Kemurnian mengucapkan Gong Xi Fa Cai 🐇🧧🎉🥳 🙏🏻...
+                </p>
+              </article>
+
+              <article class="bgrid">
+                <a href="newyeartk.html">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/tahunbaru/newyear_tkkmn2_01.avif     1080w,
+                        ./images/tahunbaru/newyear_tkkmn2_01-540.avif  540w
+                      "
+                      sizes="(max-width: 540px) 100vw, 540px"
+                      type="image/avif"
+                    />
+                    <img
+                      src="./images/tahunbaru/newyear_tkkmn2_01.jpg"
+                      alt="newyear_tkkmn2_01"
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </a>
+
+                <h5>09 Januari 2023</h5>
+                <h3><a href="newyeartk.html">Perayaan Tahun Baru 2023</a></h3>
+
+                <p>
+                  TK Kemurnian I, II dan III menyambut awal tahun 2023 dengan
+                  penuh sukacita dan kegembiraan bersama dengan anak-anak....
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <br />
+
+        <a class="button stroke" href="news.html">More News</a>
+      </div>
+    </section>
+    <!-- /content -->
+
+    <!-- Footer
+   ================================================== -->
+    <footer>
+      <div class="row">
+        <br />
+
+        <div class="mob-whole six columns left">
+          <picture>
+            <source
+              srcset="
+                ./images/cambridge.avif       2089w,
+                ./images/cambridge-small.avif 1045w
+              "
+              sizes="(max-width: 540px) 100vw, 540px"
+              type="image/avif"
+            />
+            <img
+              src="./images/cambridge.webp"
+              alt="cambridge"
+              width="2089"
+              height="728"
+              loading="lazy"
+              decoding="async"
+            />
+          </picture>
+        </div>
+        <!-- /left -->
+
+        <div class="mob-whole six columns right">
+          <h3 class="contact">Follow Us</h3>
+
+          <ul class="footer-links-soi">
+            <li>
+              <a
+                title="Facebook"
+                href="https://web.facebook.com/sekolah.kemurnian?_rdc=1&_rdr"
+                target="_blank"
+                ><i class="fa fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                title="Instagram"
+                href="https://www.instagram.com/accounts/login/?next=/sekolah.kemurnian/"
+                target="_blank"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                title="YouTube"
+                href="https://www.youtube.com/results?search_query=sekolah+kemurnian"
+                target="_blank"
+                ><i class="fa fa-youtube"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <!-- /right -->
+
+        <div id="go-top">
+          <a class="smoothscroll" title="Back to Top" href="#event-page"
+            ><span>Top</span><i class="fa fa-long-arrow-up"></i
+          ></a>
+        </div>
+
+        <div id="contact">
+          <a href="https://linktr.ee/sekolahkemurnian" target="_blank">
+            <picture>
+              <source srcset="./images/whatsapp.avif" type="image/avif" />
+              <img
+                src="./images/whatsapp.webp"
+                alt="whatsapp"
+                loading="lazy"
+                decoding="async"
+                width="1000"
+                height="1000"
+              />
+            </picture>
+          </a>
+        </div>
+
+        <div id="aimsis-home">
+          <a class="buttonn stroke" href="https://aimsis.com/" target="_blank"
+            >aimsis</a
+          >
+        </div>
+
+        <div id="sound">
+          <audio id="mars" controls>
+            <source src="mars-kemurnian-jaya.mp3" type="audio/mpeg" />
+          </audio>
+        </div>
+      </div>
+      <!-- /row -->
+
+      <div class="row">
+        <div class="twelve columns">
+          <p>
+            Copyright © 2023 Sekolah Kemurnian. All rights reserved. | Design &
+            development by Digital One
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- /footer -->
+
+    <!-- Java Script
+   ================================================== -->
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+    <script defer src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+      window.jQuery ||
+        document.write('<script src="js/jquery-1.10.2.min.js"><\/script>');
+    </script>
+    <script
+      defer
+      type="text/javascript"
+      src="js/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script defer src="js/jquery.flexslider.js"></script>
+    <script defer src="js/jquery.fittext.js"></script>
+    <script defer src="js/backstretch.js"></script>
+    <script defer src="js/waypoints.js"></script>
+    <script defer src="js/main.js"></script>
+    <script defer src="js/autocomplete.js"></script>
+    <script defer src="js/autocompletemobile.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script defer>
+      const swiper = new Swiper(".swiper", {
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+
+        loop: true,
+
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

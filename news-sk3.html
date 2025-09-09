@@ -1,0 +1,1173 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<!--[if lt IE 8]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <!--- Basic Page Needs
+   ================================================== -->
+    <title>News</title>
+    <meta name="description" content="Kemurnian School 3 News and Events" />
+    <meta name="author" content="" />
+
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <!-- Mobile Specific Metas
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css?ver=1.1" type="text/css" />
+    <link rel="stylesheet" href="css/main.css?ver=1.4" type="text/css" />
+    <link
+      rel="preload"
+      fetchpriority="high"
+      as="image"
+      href="images/balapkarung.webp"
+      type="image/webp"
+    />
+    <link
+      rel="stylesheet"
+      href="css/media-queries.css?ver=1.5"
+      type="text/css"
+    />
+
+    <!-- Script
+   =================================================== -->
+    <script defer src="js/modernizr.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script> -->
+    <script async src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script defer src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <!-- Favicons
+	=================================================== -->
+    <link rel="shortcut icon" href="logo.png" />
+  </head>
+
+  <body>
+    <div id="top"></div>
+    <div id="preloader">
+      <div id="status">
+        <img src="images/loader.gif" height="60" width="60" alt="" />
+        <div class="loader">Loading...</div>
+      </div>
+    </div>
+
+    <!-- Header
+   =================================================== -->
+    <header id="main-header">
+      <div class="row header-inner">
+        <div class="logo">
+          <a href="index.php" title="Home Page"></a>
+        </div>
+
+        <nav id="nav-wrap">
+          <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+            <span class="menu-text">Show Menu</span>
+            <span class="menu-icon"></span>
+          </a>
+          <a class="mobile-btn" href="#" title="Hide navigation">
+            <span class="menu-text">Hide Menu</span>
+            <span class="menu-icon"></span>
+          </a>
+
+          <ul id="nav" class="nav">
+            <form class="desktop-hidden" autocomplete="off" action="">
+              <div
+                class="autocomplete"
+                style="display: inline-block; position: relative"
+              >
+                <input id="myInputMob" type="search" placeholder="Search" />
+              </div>
+              <button
+                title="mobile search button"
+                id="search-button-mob"
+                type="button"
+                onclick="openPageMob()"
+              >
+                <img
+                  src="./images/search.png"
+                  alt="search"
+                  title="search"
+                  width="51"
+                  height="51"
+                />
+              </button>
+            </form>
+
+            <li><a href="index.php#hero">Home.</a></li>
+            <li><a href="index.php#services">School.</a></li>
+            <li><a href="index.php#ppdb">PPDB.</a></li>
+            <li><a href="index.php#kurikulum">Curriculum.</a></li>
+            <li><a href="index.php#about">About.</a></li>
+            <li class="current"><a href="index.php#journal">News.</a></li>
+            <li><a href="index.php#contact">Contact.</a></li>
+
+            <form class="mobile-hidden" autocomplete="off" action="">
+              <div
+                class="autocomplete"
+                style="display: inline-block; position: relative"
+              >
+                <input id="myInput" type="search" placeholder="Search" />
+              </div>
+              <button
+                title="search button"
+                name="search"
+                id="search-button"
+                type="button"
+                onclick="openPage()"
+              >
+                <img
+                  alt="search"
+                  src="./images/search.png"
+                  width="51"
+                  height="51"
+                  alt="search"
+                  title="search"
+                />
+              </button>
+            </form>
+          </ul>
+        </nav>
+        <!-- /nav-wrap -->
+      </div>
+      <!-- /header-inner -->
+    </header>
+
+    <!-- Page Title
+   ================================================== -->
+    <section id="page-title-news">
+      <div class="row">
+        <div class="twelve columns">
+          <h1>NEWS AND EVENTS</h1>
+        </div>
+      </div>
+      <!-- /row -->
+    </section>
+    <!-- /page-title -->
+
+    <!-- Content
+   ================================================== -->
+    <section id="news-page">
+      <div class="content">
+        <div class="row category">
+          <h1>Kategori Berita</h1>
+
+          <select
+          title="Choose school branch"
+            name="links"
+            id=""
+            size="1"
+            onchange="window.location.href=this.value"
+          >
+            <option value="news-sk3.html">Sekolah Kemurnian III</option>
+            <option value="news-sk1.html">Sekolah Kemurnian I</option>
+            <option value="news-sk2.html">Sekolah Kemurnian II</option>
+            <option value="news.html">General</option>
+          </select>
+        </div>
+
+        <br />
+
+        <div class="row">
+          <div class="twelve columns">
+            <div
+              id="blog-wrapper"
+              class="bgrid-third tab-bgrid-half mob-bgrid-half group"
+            >
+            
+                
+                     <article class="bgrid sk2">
+                        <a href="open25.html">
+                            <picture>
+                                <source
+                                srcset="
+                                    ./images/open25.webp   1080w,
+                                    ./images/open25.webp  1080w
+                                "
+                                sizes="(max-width: 600px) 100vw, 540px"
+                                type="image/webp"
+                                />
+                                <img
+                                src="./images/open25.webp"
+                                alt="Seminar-kasih-sd-00"
+                                loading="lazy"
+                                decoding="async"
+                                width="1080"
+                                height="1080"
+                                />
+                            </picture>
+                        </a>
+                        <h5>09 Juli 2025</h5>
+                        <h3>
+                        <a href="open25.html">
+                            𝐎𝐏𝐄𝐍 𝐄𝐍𝐑𝐎𝐋𝐋𝐌𝐄𝐍𝐓 𝟐𝟎𝟐𝟔/𝟐𝟎𝟐𝟕 𝐒𝐔𝐃𝐀𝐇 𝐃𝐈𝐁𝐔𝐊𝐀!
+                            
+                        </a>
+                        </h3>
+
+                        <p>
+                              Untuk orang tua yang sedang mencari sekolah .....
+                        </p>
+                    </article>
+                     
+                
+              <article class="bgrid sk3">
+                <a href="graduation-day-tk-kmn3-2023.html">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/graduation-day-tk-kmn3-2023/gd-tk-kmn3-2023-0.avif     1080w,
+                        ./images/graduation-day-tk-kmn3-2023/gd-tk-kmn3-2023-0-540.avif  540w
+                      "
+                      sizes="(max-width: 600px) 100vw, 1080px"
+                      type="image/avif"
+                    />
+                    <img
+                      src="./images/graduation-day-tk-kmn3-2023/gd-tk-kmn3-2023-0.webp"
+                      alt="gd-tk-kmn3-2023-0"
+                      loading="lazy"
+                      decoding="async"
+                      width="1080"
+                      height="1080"
+                    />
+                  </picture>
+                </a>
+                <h5>6 Juni 2023</h5>
+                <h3>
+                  <a href="graduation-day-tk-kmn3-2023.html">
+                    Graduation Day TK Kemurnian III Tahun 2023
+                  </a>
+                </h3>
+
+                <p>
+                  Pada hari Selasa, 6 Juni 2023, TK Kemurnian III telah
+                  melaksanakan upacara kelulusan angkatan 2023 di Aula Sekolah
+                  Kemurnian III...
+                </p>
+              </article>
+              <article class="bgrid sk1 sk2 sk3">
+                <a href="buka_bersama-2023.html">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/buka-bersama-2023/buka-bersama-2023_0.avif     1080w,
+                        ./images/buka-bersama-2023/buka-bersama-2023_0-540.avif  540w
+                      "
+                      sizes="(max-width: 600px) 100vw, 540px"
+                      type="image/avif"
+                    />
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/buka-bersama-2023/buka-bersama-2023_0.png"
+                      alt="buka-bersama-2023_0"
+                      width="1080"
+                      height="1080"
+                    />
+                  </picture>
+                </a>
+                <h5>12 April 2023</h5>
+                <h3>
+                  <a href="buka_bersama-2023.html">
+                    Buka Bersama Guru dan Karyawan - Sekolah Kemurnian I, II,
+                    dan III
+                  </a>
+                </h3>
+
+                <p>
+                  Sekolah Kemurnian I, II, dan III mengadakan kegiatan buka
+                  bersama di Ballroom Sekolah Kemurnian II...
+                </p>
+              </article>
+
+              <article class="bgrid sk1 sk2 sk3">
+                <a href="pesantren_kilat-2023.html">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/pesantren-kilat-2023/pesantren_kilat_2023_0.avif     1080w,
+                        ./images/pesantren-kilat-2023/pesantren_kilat_2023_0-540.avif  540w
+                      "
+                      sizes="(max-width: 600px) 100vw, 540px"
+                      type="image/avif"
+                    />
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/pesantren-kilat-2023/pesantren_kilat_2023_0.png"
+                      alt="pesantren_kilat_2023_0"
+                      width="1080"
+                      height="1080"
+                    />
+                  </picture>
+                </a>
+                <h5>12 April 2023</h5>
+                <h3>
+                  <a href="pesantren_kilat-2023.html">
+                    Pesantren Kilat - Sekolah Kemurnian I, II, dan III
+                  </a>
+                </h3>
+
+                <p>
+                  Sekolah Kemurnian I, II, dan III mengadakan kegiatan pesantren
+                  kilat bagi murid-murid beragama Islam...
+                </p>
+              </article>
+
+              <article class="bgrid sk1 sk2 sk3">
+                <a href="fieldtrip-sd-2023.html">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/fieldtrip-sd-2023/field_trip_sd_2023_0.avif     1080w,
+                        ./images/fieldtrip-sd-2023/field_trip_sd_2023_0-540.avif  540w
+                      "
+                      sizes="(max-width: 600px) 100vw, 540px"
+                      type="image/avif"
+                    />
+                    <img
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/fieldtrip-sd-2023/field_trip_sd_2023_0.png"
+                      alt="field_trip_sd_2023_0"
+                    />
+                  </picture>
+                </a>
+                <h5>17 Februari 2023</h5>
+                <h3>
+                  <a href="fieldtrip-sd-2023.html">
+                    Field Trip Kelas 6 - SD Kemurnian I, Kemurnian II, dan
+                    Kemurnian III
+                  </a>
+                </h3>
+
+                <p>
+                  SD Kemurnian I, II, dan III mengadakan kegiatan
+                  <i>field trip</i>
+                  dengan berkunjung ke Taman Mini Indonesia Indah (TMII) di
+                  Jakarta Timur...
+                </p>
+              </article>
+
+              <article class="bgrid sk1 sk2 sk3">
+                <a href="pendalaman_iman.html">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/pendalaman-iman/pendalaman_iman_poster.avif     1080w,
+                        ./images/pendalaman-iman/pendalaman_iman_poster-540.avif  540w
+                      "
+                      sizes="(max-width: 600px) 100vw, 540px"
+                      type="image/avif"
+                    />
+                    <img
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/pendalaman-iman/pendalaman_iman_poster.png"
+                      alt="pendalaman_iman_poster"
+                    />
+                  </picture>
+                </a>
+                <h5>15 Februari 2023</h5>
+                <h3>
+                  <a href="pendalaman_iman.html">
+                    Pendalaman Iman - SD Kemurnian I, Kemurnian II, dan
+                    Kemurnian III
+                  </a>
+                </h3>
+
+                <p>
+                  Sekolah Dasar Kemurnian I, II, dan III mengadakan kegiatan
+                  pendalaman iman untuk para murid yang duduk di kelas 1, 2, dan
+                  3 pada hari Rabu, tanggal 15 Februari 2023...
+                </p>
+              </article>
+
+              <article class="bgrid sk1 sk2 sk3">
+                <a href="bahasakasih.html">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/bahasakasih/bahasakasih-01.avif     1080w,
+                        ./images/bahasakasih/bahasakasih-01-540.avif  540w
+                      "
+                      sizes="(max-width: 600px) 100vw, 540px"
+                      type="image/avif"
+                    />
+                    <img
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/bahasakasih/bahasakasih-01.jpg"
+                      alt="bahasakasih-01"
+                    />
+                  </picture>
+                </a>
+                <h5>14 Februari 2023</h5>
+                <h3>
+                  <a href="bahasakasih.html"
+                    >Seminar Bahasa Kasih - SD Kemurnian I, Kemurnian II, dan
+                    Kemurnian III</a
+                  >
+                </h3>
+
+                <p>
+                  Indonesia sebagai bangsa yang berbudaya merupakan negara yang
+                  menjunjung tinggi akhlak mulia, nilai-nilai luhur, kearifan,
+                  dan budi pekerti...
+                </p>
+              </article>
+
+              <article class="bgrid sk1 sk2 sk3">
+                <a href="seminar-mykids-mylegacy.html">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/seminar-mykids-mylegacy/mykids-mylegacy01.avif     1080w,
+                        ./images/seminar-mykids-mylegacy/mykids-mylegacy01-540.avif  540w
+                      "
+                      sizes="(max-width: 600px) 100vw, 540px"
+                      type="image/avif"
+                    />
+                    <img
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/seminar-mykids-mylegacy/mykids-mylegacy01.jpg"
+                      alt="seminar-mykids-mylegacy01"
+                    />
+                  </picture>
+                </a>
+                <h5>03 Februari 2023</h5>
+                <h3>
+                  <a href="seminar-mykids-mylegacy.html"
+                    >Seminar Parenting "My Kids, My Legacy - SD Kemurnian I, II,
+                    III
+                  </a>
+                </h3>
+
+                <p>
+                  SD Kemurnian I, II dan III menyelenggarakan Seminar Parenting
+                  dengan Tema “My Kids, My Legacy” dengan Narasumber berasal
+                  dari...
+                </p>
+              </article>
+
+              <article class="bgrid sk1 sk2 sk3">
+                <a href="my&mybody.html">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/my&mybody/my&mybody1.avif     1080w,
+                        ./images/my&mybody/my&mybody1-540.avif  540w
+                      "
+                      sizes="(max-width: 600px) 100vw, 540px"
+                      type="image/avif"
+                    />
+                    <img
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/my&mybody/my&mybody1.jpg"
+                      alt="mybody1"
+                    />
+                  </picture>
+                </a>
+                <h5>27 Januari 2023</h5>
+                <h3>
+                  <a href="my&mybody.html">
+                    Seminar Kebersihan Diri - SD Kemurnian I, II, & III
+                  </a>
+                </h3>
+
+                <p>
+                  SD Kemurnian I, II & III melaksanakan seminar "Kebersihan
+                  diri" untuk siswa kelas 5 dengan tema "My & My Body....
+                </p>
+              </article>
+
+              <article class="bgrid sk1 sk2 sk3">
+                <a href="imlek2023.html">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/Imlek-2023-tkkmn123/imlek_tkkmn1_01.avif     1080w,
+                        ./images/Imlek-2023-tkkmn123/imlek_tkkmn1_01-540.avif  540w
+                      "
+                      sizes="(max-width: 600px) 100vw, 540px"
+                      type="image/avif"
+                    />
+                    <img
+                      width="1080"
+                      height="1080"
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/Imlek-2023-tkkmn123/imlek_tkkmn1_01.jpg"
+                      alt="imlek_tkkmn1_01"
+                    />
+                  </picture>
+                </a>
+
+                <h5>25 Januari 2023</h5>
+                <h3>
+                  <a href="imlek2023.html">Tahun Baru Imlek 2023</a>
+                </h3>
+
+                <p>
+                  Sekolah Kemurnian mengucapkan Gong Xi Fa Cai 🐇🧧🎉🥳🙏🏻...
+                </p>
+              </article>
+
+              <article class="bgrid sk1 sk2 sk3">
+                <a href="be-kind-be-smart.html">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/be-kind-be-smart/bekindbesmart-cover.avif
+                      "
+                      type="image/avif"
+                    />
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/be-kind-be-smart/bekindbesmart-cover.jpg"
+                      alt="bekindbesmart-cover"
+                    />
+                  </picture>
+                </a>
+
+                <h5>20 Januari 2023</h5>
+                <h3>
+                  <a href="be-kind-be-smart.html"
+                    >Motivation Learning "Be Kind Be Smart"</a
+                  >
+                </h3>
+
+                <p>
+                  Peserta didik kelas VI SD Kemurnian I, II, & III berkesempatan
+                  hadir dalam kegiatan motivasi belajar, peserta didik
+                  dibekali...
+                </p>
+              </article>
+
+              <article class="bgrid sk1 sk2 sk3">
+                <a href="newyeartk.html">
+                  <picture>
+                    <source
+                      srcset="./images/tahunbaru/newyear_tkkmn2_01.avif"
+                      type="image/avif"
+                    />
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/tahunbaru/newyear_tkkmn2_01.jpg"
+                      alt="newyear_tkkmn2_01"
+                    />
+                  </picture>
+                </a>
+
+                <h5>09 Januari 2023</h5>
+                <h3>
+                  <a href="newyeartk.html"> Perayaan Tahun Baru 2023 </a>
+                </h3>
+
+                <p>
+                  TK Kemurnian I, II dan III menyambut awal tahun 2023 dengan
+                  penuh sukacita dan kegembiraan bersama dengan anak-anak....
+                </p>
+              </article>
+
+              <article class="bgrid sk1 sk2 sk3">
+                <a href="seminarguru23.html">
+                  <picture>
+                    <source srcset="./images/seminar.avif" type="image/avif" />
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/seminar.jpg"
+                      alt="seminar"
+                    />
+                  </picture>
+                </a>
+
+                <h5>4 Januari 2023</h5>
+                <h3>
+                  <a href="seminarguru23.html"
+                    >Seminar Pendidikan Kurikulum Merdeka 2023/2024</a
+                  >
+                </h3>
+
+                <p>
+                  Sekolah Kemurnian membuka tahun ajaran baru dengan kembali
+                  mengadakan seminar Pendidikan Kurikulum Merdeka untuk ....
+                </p>
+              </article>
+
+              <article class="bgrid sk1 sk2 sk3">
+                <a href="motherday-tkkmn1.html">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/motherday-tkkmn1/motherday_tkkmn1_01.avif
+                      "
+                      type="image/avif"
+                    />
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/motherday-tkkmn1/motherday_tkkmn1_01.jpg"
+                      alt="motherday_tkkmn1_01"
+                    />
+                  </picture>
+                </a>
+
+                <h5>22 Desember 2022</h5>
+                <h3>
+                  <a href="motherday-tkkmn1.html">Hari Ibu Nasional</a>
+                </h3>
+
+                <p>
+                  Selamat Hari Ibu, terima kasih telah menjaga kami dengan baik,
+                  aku tahu itu tidak selalu mudah....
+                </p>
+              </article>
+
+              <article class="bgrid sk1 sk3">
+                <a href="natal-2022-tkkmn13.html">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/natal-2022-tkkmn-sdkmn2/natal_tkkmn1_01.avif
+                      "
+                      type="image/avif"
+                    />
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/natal-2022-tkkmn-sdkmn2/natal_tkkmn1_01.webp"
+                      alt="natal_tkkmn1_01"
+                    />
+                  </picture>
+                </a>
+
+                <h5>09 Desember 2022</h5>
+                <h3>
+                  <a href="natal-2022-tkkmn13.html">
+                    Early Christmas Celebration TK Kemurnian I & III
+                  </a>
+                </h3>
+
+                <p>
+                  Perayaan Natal TK Kemurnian I dan III penuh sukacita. Sukacita
+                  anak-anak terpencar dari kegembiraan mereka dalam merayakan
+                  natal bersama....
+                </p>
+              </article>
+
+              <article class="bgrid sk1 sk2 sk3">
+                <a href="fieldtripsd2022.html">
+                  <picture>
+                    <source
+                      srcset="./images/fieldtripsd22.avif"
+                      type="image/avif"
+                    />
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/fieldtripsd22.jpg"
+                      alt="fieldtripsd22"
+                    />
+                  </picture>
+                </a>
+
+                <h5>6-9 Desember 2022</h5>
+                <h3>
+                  <a href="fieldtripsd2022.html">Field Trip to Kidzania</a>
+                </h3>
+
+                <p>
+                  Setelah sekian lama, SD Kemurnian I, II, dan III kembali
+                  mengadakan kegiatan field trip dengan berkunjung ke ....
+                </p>
+              </article>
+
+              <article class="bgrid sk1 sk2 sk3">
+                <a href="baksos-cianjur2.html">
+                  <picture>
+                    <source
+                      srcset="./images/baksos-cianjur1.avif"
+                      type="image/avif"
+                    />
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/baksos-cianjur1.jpg"
+                      alt="baksos-cianjur1"
+                    />
+                  </picture>
+                </a>
+
+                <h5>29 November 2022</h5>
+                <h3>
+                  <a href="baksos-cianjur2.html"
+                    >Serah terima Bantuan Untuk Korban Gempa Cianjur</a
+                  >
+                </h3>
+
+                <p>
+                  Serah terima bantuan donasi dari para donatur Yayasan
+                  Pendidikan Kemurnian sampai pada ke titik titik tujuan yang
+                  berada di Cianjur.
+                </p>
+              </article>
+
+              <article class="bgrid sk1 sk2 sk3">
+                <a href="baksos-cianjur.html">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/baksos-cianjur/baksos-gempa-cianjur-01.avif
+                      "
+                      type="image/avif"
+                    />
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/baksos-cianjur/baksos-gempa-cianjur-01.jpg"
+                      alt="baksos-gempa-cianjur-01"
+                    />
+                  </picture>
+                </a>
+
+                <h5>25-27 November 2022</h5>
+                <h3>
+                  <a href="baksos-cianjur.html"
+                    >Posko Bantuan Untuk Korban Gempa Cianjur</a
+                  >
+                </h3>
+
+                <p>
+                  Seiring dengan banyaknya korban yang terdampak dari Gempa
+                  Cianjur yang terjadi pada tanggal 21 November 2022, Yayasan
+                  Pendidikan Kemurnian ....
+                </p>
+              </article>
+
+              <article class="bgrid sk1 sk2 sk3">
+                <a href="batikday.html">
+                  <picture>
+                    <source
+                      srcset="./images/batikday/batikday-00.avif"
+                      type="image/avif"
+                    />
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/batikday/batikday-00.jpg"
+                      alt="batikday-00"
+                    />
+                  </picture>
+                </a>
+
+                <h5>3 Oktober 2022</h5>
+                <h3><a href="batikday.html">Batik Day</a></h3>
+
+                <p>
+                  Dalam rangka memperingati hari batik sedunia pada tanggal 2
+                  Oktober, Sekolah Kemurnian mengadakan Hari Batik atau Batik...
+                </p>
+              </article>
+
+              <article class="bgrid sk1 sk2 sk3">
+                <a href="openhouse22.html">
+                  <picture>
+                    <source
+                      srcset="./images/openhouse-2022/oh22-00.avif"
+                      type="image/avif"
+                    />
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/openhouse-2022/oh22-00.jpg"
+                      alt="oh22-00"
+                    />
+                  </picture>
+                </a>
+
+                <h5>29 September 2022</h5>
+                <h3>
+                  <a href="openhouse22.html"
+                    >Open House Sekolah Kemurnian Highlights 2022</a
+                  >
+                </h3>
+
+                <p>
+                  Pelaksanaan Open House Sekolah Kemurnian I, II, dan III yang
+                  diiringi dengan acara pameran workshop of art dari siswa dan
+                  ...
+                </p>
+              </article>
+
+              <article class="bgrid sk3">
+                <a href="art-day-tk-kemurnian-3-september-2022.html">
+                  <picture>
+                    <source
+                      srcset="./images/art-day-tk-kemurnian-3/art-1.avif"
+                      type="image/avif"
+                    />
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/art-day-tk-kemurnian-3/art-1.jpg"
+                      alt="art-1"
+                    />
+                  </picture>
+                </a>
+
+                <h5>23rd September 2022</h5>
+                <h3>
+                  <a href="art-day-tk-kemurnian-3-september-2022.html"
+                    >TK Kemurnian III : Art Day</a
+                  >
+                </h3>
+
+                <p>
+                  TK Kemurnian III has held a small competition supported by
+                  Fabercastell and UHU Indonesia where students are required to
+                  coloring and pasting a certain...
+                </p>
+              </article>
+
+              <article class="bgrid sk1 sk2 sk3">
+                <a href="5tips.html">
+                  <picture>
+                    <source
+                      srcset="./images/5tips/5tips-0.avif"
+                      type="image/avif"
+                    />
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/5tips/5tips-0.jpg"
+                      alt="5tips-0"
+                    />
+                  </picture>
+                </a>
+
+                <h5>1 Agustus 2022</h5>
+                <h3>
+                  <a href="5tips.html">5 Tips Semangat Sekolah</a>
+                </h3>
+
+                <p>
+                  Mari kita simak beberapa tips sederhana ketika sekolah tatap
+                  muka...
+                </p>
+              </article>
+
+              <article class="bgrid sk1 sk2 sk3">
+                <a href="perayaan-hutri-77.html">
+                  <picture>
+                    <source
+                      srcset="./images/perayaan-17agustus2022/phutri22-0.avif"
+                      type="image/avif"
+                    />
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/perayaan-17agustus2022/phutri22-0.jpg"
+                      alt="phutri22-0"
+                    />
+                  </picture>
+                </a>
+
+                <h5>17 Agustus 2022</h5>
+                <h3>
+                  <a href="perayaan-hutri-77.html"
+                    >Perayaan Lomba HUT RI Ke-77</a
+                  >
+                </h3>
+
+                <p>
+                  Sekolah Kemurnian kembali mengadakan acara dan kegiatan lomba
+                  17 Agustus 2022...
+                </p>
+              </article>
+
+              <article class="bgrid sk1 sk2 sk3">
+                <a href="upacara-hutti22.html">
+                  <picture>
+                    <source
+                      srcset="./images/upacara-hutri77/uhutri77-0.avif"
+                      type="image/avif"
+                    />
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/upacara-hutri77/uhutri77-0.jpg"
+                      alt="uhutri77-0"
+                    />
+                  </picture>
+                </a>
+
+                <h5>17 Agustus 2022</h5>
+                <h3>
+                  <a href="upacara-hutti22.html">
+                    Upacara Bendera Dalam Memperingati HUT Kemerdekaan Indonesia
+                    ke-77
+                  </a>
+                </h3>
+
+                <p>
+                  Sekolah Kemurnian kembali mengadakan Upacara Bendera dalam
+                  rangka memperingati hari...
+                </p>
+              </article>
+
+              <article class="bgrid sk1 sk2 sk3">
+                <a href="mpls22.html">
+                  <picture>
+                    <source
+                      srcset="./images/mpls22/mpls-0.avif"
+                      type="image/avif"
+                    />
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/mpls22/mpls-0.jpg"
+                      alt="mpls-0"
+                    />
+                  </picture>
+                </a>
+
+                <h5>11 Juli 2022</h5>
+                <h3>
+                  <a href="mpls22.html">
+                    Kegiatan MPLS (Masa Pengenalan Lingkungan Sekolah) Tahun
+                    Ajaran 2022/2023
+                  </a>
+                </h3>
+
+                <p>
+                  Sekolah Kemurnian kembali menerapkan PTM (Pembalajaran Tatap
+                  Muka) 100% sesuai dengan arahan pemerintah...
+                </p>
+              </article>
+
+              <article class="bgrid sk1 sk2 sk3">
+                <a href="imlek2022.html">
+                  <picture>
+                    <source srcset="./images/macan.avif" type="image/avif" />
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/macan.jpg"
+                      alt="macan"
+                    />
+                  </picture>
+                </a>
+
+                <h5>1 Februari 2022</h5>
+                <h3>
+                  <a href="imlek2022.html">
+                    Selamat Tahun Baru Imlek 2022! Semoga semua keinginan kita
+                    terwujud.
+                  </a>
+                </h3>
+
+                <p>
+                  Selamat Tahun Baru Imlek 2022! Semoga semua keinginan kita
+                  terwujud....
+                </p>
+              </article>
+
+              <article class="bgrid sk1 sk2 sk3">
+                <a href="protokol-kesehatan.html">
+                  <picture>
+                    <source srcset="./images/protokol.avif" type="image/avif" />
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      src="./images/protokol.jpg"
+                      alt="protokol"
+                    />
+                  </picture>
+                </a>
+
+                <h5>7 Januari 2022</h5>
+                <h3>
+                  <a href="protokol-kesehatan.html">
+                    Protokol Kebersihan Saat Kedatangan Di Sekolah dan
+                    Beraktifitas
+                  </a>
+                </h3>
+
+                <p>
+                  Dengan dimulainya PTM (Pembelajaran Tatap Muka) dengan
+                  kapasitas 100%...
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <br />
+
+        <a class="button stroke">Load More</a>
+        <script defer src="js/button.js"></script>
+      </div>
+    </section>
+    <!-- /content -->
+
+    <!-- Footer
+   ================================================== -->
+    <footer>
+      <div class="row">
+        <br />
+
+        <div class="mob-whole six columns left">
+          <picture>
+            <source
+              srcset="
+                ./images/cambridge.avif       2089w,
+                ./images/cambridge-small.avif 1045w
+              "
+              sizes="(max-width: 540px) 100vw, 540px"
+              type="image/avif"
+            />
+            <img
+              src="./images/cambridge.webp"
+              alt="cambridge"
+              width="2089"
+              height="728"
+              loading="lazy"
+              decoding="async"
+            />
+          </picture>
+        </div>
+        <!-- /left -->
+
+        <div class="mob-whole six columns right">
+          <h3 class="contact">Follow Us</h3>
+
+          <ul class="footer-links-soi">
+            <li>
+              <a
+                title="Facebook"
+                href="https://web.facebook.com/sekolah.kemurnian?_rdc=1&_rdr"
+                target="_blank"
+              >
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                title="Instagram"
+                href="https://www.instagram.com/accounts/login/?next=/sekolah.kemurnian/"
+                target="_blank"
+              >
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                title="YouTube"
+                href="https://www.youtube.com/results?search_query=sekolah+kemurnian"
+                target="_blank"
+              >
+                <i class="fa fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- /right -->
+
+        <div id="go-top">
+          <a class="smoothscroll" title="Back to Top" href="#page-title-news">
+            <span>Top</span><i class="fa fa-long-arrow-up"></i>
+          </a>
+        </div>
+
+        <div id="contact">
+          <a href="https://linktr.ee/sekolahkemurnian" target="_blank">
+            <picture>
+              <source srcset="./images/whatsapp.avif" type="image/avif" />
+              <img
+                src="./images/whatsapp.webp"
+                alt="whatsapp"
+                loading="lazy"
+                decoding="async"
+                width="1000"
+                height="1000"
+              />
+            </picture>
+          </a>
+        </div>
+
+        <div id="aimsis-home">
+          <a class="buttonn stroke" href="https://aimsis.com/" target="_blank"
+            >aimsis</a
+          >
+        </div>
+
+        <div id="sound">
+          <audio id="mars" controls>
+            <source src="mars-kemurnian-jaya.mp3" type="audio/mpeg" />
+          </audio>
+        </div>
+      </div>
+      <!-- /row -->
+
+      <div class="row">
+        <div class="twelve columns">
+          <p>
+            Copyright © 2023 Sekolah Kemurnian. All rights reserved. | Design &
+            development by Digital One
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- /footer -->
+
+    <!-- Java Script
+   ================================================== -->
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script defer src="js/jquery-1.10.2.min.js"><\/script>'
+        );
+    </script>
+    <script
+      defer
+      type="text/javascript"
+      src="js/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script defer src="js/jquery.flexslider.js"></script>
+    <script defer src="js/jquery.fittext.js"></script>
+    <script defer src="js/backstretch.js"></script>
+    <script defer src="js/waypoints.js"></script>
+    <script defer src="js/main.js"></script>
+    <script defer src="js/pageshow.js"></script>
+    <script defer src="js/autocomplete.js"></script>
+    <script defer src="js/autocompletemobile.js"></script>
+  </body>
+</html>

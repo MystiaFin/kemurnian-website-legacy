@@ -1,0 +1,5 @@
+Untuk mengupdate hasil pencarian Google agar tidak menampilkan teks promosi yang sudah dihapus, Anda bisa menggunakan Google Search Console. Berikut langkah-langkahnya:
+Minta Google untuk mengindeks ulang halaman Anda: Gunakan Google Search Console untuk meminta pengindeksan ulang halaman yang telah diperbarui.
+Unggah peta situs (sitemap): Pastikan peta situs terbaru diunggah ke Google Search Console untuk mempercepat proses pengindeksan.
+Gunakan fitur 'Removals': Buka tab 'Removals' di Google Search Console, buat permintaan baru dengan memasukkan URL halaman yang ingin dihapus dari hasil pencarian Google.
+Penghapusan biasanya diproses dalam beberapa hari hingga seminggu.
