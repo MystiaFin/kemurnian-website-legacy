@@ -406,40 +406,29 @@
     /* background: #641609 url(../images/website_open_enrollment-01_update1.webp) no-repeat
       center center scroll; */
     background: #641609
-      url(../images/ppdb.webp) no-repeat
+      url(../images/hero/slide-1.webp) no-repeat
       center center scroll;
   }
 
   .slides .slide-2 {
     /* background: #641609 url(../images/KMN.webp) no-repeat center center scroll; */
-	background: #641609 url(../images/slider21.webp) no-repeat center center scroll;
+	background: #641609 url(../images/hero/slide-2.webp) no-repeat center center scroll;
   }
 
   .slides .slide-3 {
-    background: #641609 url(../images/hut_ri_78.webp) no-repeat center center
+    background: #641609 url(../images/hero/slide-3.webp) no-repeat center center
       scroll;
   }
 
   .slides .slide-4 {
-    background: #641609 url(../images/desktop_slide3.webp) no-repeat center center
+    background: #641609 url(../images/hero/slide-4.webp) no-repeat center center
       scroll;
   }
   .slides .slide-5 {
     background: #641609
-      url(../images/slide-5.webp)
+      url(../images/hero/slide-5.webp)
       no-repeat center center scroll;
   }
-  .slides .slide-6 {
-    background: #641609
-      url(../images/slide-6.webp)
-      no-repeat center center scroll;
-  }
-   .slides .slide-7 {
-    background: #641609
-      url(../images/website-eo-desktop.jpg) no-repeat
-      center center scroll;
-  }
-
 
   .service-list iframe {
     width: 200px;

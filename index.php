@@ -166,6 +166,14 @@
                             </div>
 						</li>
 
+
+						<!-- Slide -->
+						<li class="slide-3">
+							<div class=" flex-caption flex-3">
+								<h1>Berita dan Event terbaru dari Sekolah Kemurnian</h1>
+								<p><a title="Baca Berita" class="button stroke smoothscroll" href="#journal">News and Event</a></p>
+							</div>
+						</li>
 					
 
 						<!-- Slide -->
@@ -176,24 +184,11 @@
 		
 						 <!-- Slide -->
                         <li class="slide-5">
-                            <div class="flex-caption">
-                                <h1>
-                                    Sekolah Kemurnian Sudah Berdiri Sejak Tahun 1978
-                                </h1>
-                                <p>
-                                    <a title="Baca Berita" class="button stroke smoothscroll" href="#about">Tentang Kami</a>
-                                </p>
-                            </div>
-                        </li>
-                        <!-- Slide -->
-						<li class="slide-6">
 							<div class=" flex-caption flex-3">
-								<h1>Berita dan Event terbaru dari Sekolah Kemurnian</h1>
-								<p><a title="Baca Berita" class="button stroke smoothscroll" href="#journal">News and Event</a></p>
+								<h1>Sekolah Kemurnian Sudah Berdiri Sejah Tahun 1978</h1>
+								<p><a title="Baca Berita" class="button stroke smoothscroll" href="#about">Tentang Kami</a></p>
 							</div>
-						</li>
-                       
-
+                        </li>
 					</ul>
 
                 </div> <!-- .flexslider -->
