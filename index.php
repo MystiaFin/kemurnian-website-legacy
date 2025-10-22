@@ -481,8 +481,203 @@
             <div class="twelve columns">
                 
                  <div id="blog-wrapper" class="bgrid-third tab-bgrid-half mob-bgrid-half group">
-                     
-                                          <article class="bgrid sk2">
+
+                      <article class="bgrid sk2">
+                        <a href="news/2025/15_modern_dance.html">
+                            <picture>
+                                <source
+                                srcset="
+                                    ./images/news/2025/15_modern_dance.jpg 1080w,
+                                    ./images/news/2025/15_modern_dance.jpg 1080w,
+                                "
+                                sizes="(max-width: 600px) 100vw, 540px"
+                                type="image/webp"
+                                />
+                                <img
+                                    src="./images/news/2025/15_modern_dance.jpg"
+                                    alt="maulid.jpeg"
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="1080"
+                                    height="1080"
+                                />
+                            </picture>
+                        </a>
+                        <h5>17 Oktober 2025</h5>
+                        <h3>
+                            <a href="news/2025/15_modern_dance.html">
+                                Juara 1 Lomba Modern Dance INEXO
+                            </a>
+                        </h3>
+                        <p>
+                            Selamat untuk INEXO Dance...
+                        </p>
+                      </article>
+                      <!--break-->
+
+                      <article class="bgrid sk2">
+                        <a href="news/2025/14_juara_paduan_suara.html">
+                            <picture>
+                                <source
+                                srcset="
+                                    ./images/news/2025/14_juara_paduan_suara.webp 1080w,
+                                    ./images/news/2025/14_juara_paduan_suara.webp 1080w,
+                                "
+                                sizes="(max-width: 600px) 100vw, 540px"
+                                type="image/webp"
+                                />
+                                <img
+                                    src="./images/news/2025/14_juara_paduan_suara.webp"
+                                    alt="maulid.jpeg"
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="1080"
+                                    height="1080"
+                                />
+                            </picture>
+                        </a>
+                        <h5>8 Oktober 2025</h5>
+                        <h3>
+                            <a href="news/2025/14_juara_paduan_suara.html">
+                                Juara Harapan 1 Lomba Paduan Suara (SLTP)
+                            </a>
+                        </h3>
+                        <p>
+                            Selamat atas prestasi yang telah diraih oleh peserta...
+                        </p>
+                      </article>
+                      <!--break-->
+
+                      <article class="bgrid sk2">
+                        <a href="news/2025/13_beyond_the_sound.html">
+                            <picture>
+                                <source
+                                srcset="
+                                    ./images/news/2025/13_beyond_the_sound/1.webp 1080w,
+                                    ./images/news/2025/13_beyond_the_sound/1.webp 1080w,
+                                "
+                                sizes="(max-width: 600px) 100vw, 540px"
+                                type="image/webp"
+                                />
+                                <img
+                                    src="./images/news/2025/13_beyond_the_sound/1.jpg"
+                                    alt="maulid.jpeg"
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="1080"
+                                    height="1080"
+                                />
+                            </picture>
+                        </a>
+                        <h5>8 Oktober 2025</h5>
+                        <h3>
+                            <a href="news/2025/13_beyond_the_sound.html">
+                                Juara lomba Beyond the Sound
+                            </a>
+                        </h3>
+                        <p>
+                             Selamat atas prestasi yang telah diraih oleh Gracellyn Handoko.  
+                        </p>
+                      </article>
+                      <!--break-->
+                      <article class="bgrid sk2">
+                        <a href="news/2025/12_batik.html">
+                            <picture>
+                                <source
+                                srcset="
+                                    ./images/news/2025/batik_2_oktober/batik.jpg 1080w,
+                                    ./images/news/2025/batik_2_oktober/batik.jpg 1080w,
+                                "
+                                sizes="(max-width: 600px) 100vw, 540px"
+                                type="image/webp"
+                                />
+                                <img
+                                    src="./images/news/2025/batik_2_oktober/batik.jpg 1080w"
+                                    alt="maulid.jpeg"
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="1080"
+                                    height="1080"
+                                />
+                            </picture>
+                        </a>
+                        <h5>2 Oktober 2025</h5>
+                        <h3>
+                            <a href="news/2025/12_batik.html">
+                                Memperingati Hari Batik Nasional
+                            </a>
+                        </h3>
+                        <p>
+                              🇮🇩 Memperingati Hari Batik Nasional 2025 ✨
+                        </p>
+                      </article>
+                      <!--break-->
+
+                      <article class="bgrid sk2">
+                        <a href="news/2025/11_pancasila.html">
+                            <picture>
+                                <source
+                                srcset="
+                                    ./images/news/2025/kesaktian_pancasila_1_oktober/kesaktian.jpg 1080w,
+                                    ./images/news/2025/kesaktian_pancasila_1_oktober/kesaktian.jpg 1080w,
+                                "
+                                sizes="(max-width: 600px) 100vw, 540px"
+                                type="image/webp"
+                                />
+                                <img
+                                    src="./images/news/2025/kesaktian_pancasila_1_oktober/kesaktian.jpg 1080w,"
+                                    alt="maulid.jpeg"
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="1080"
+                                    height="1080"
+                                />
+                            </picture>
+                        </a>
+                        <h5>1 Oktober 2025</h5>
+                        <h3>
+                            <a href="news/2025/11_pancasila.html">
+                                Memperingati Hari Kesaktian Pancasila - News
+                            </a>
+                        </h3>
+                        <p>
+                              🇮🇩✨ Selamat Memperingati Hari Kesaktian Pancasila ✨🇮🇩
+                        </p>
+                      </article>
+                      <!--break-->
+                      <article class="bgrid sk2">
+                        <a href="news/2025/10_amanda.html">
+                            <picture>
+                                <source
+                                srcset="
+                                    ../../images/news/2025/10_amanda/1.jpg 1080w,
+                                    ../../images/news/2025/10_amanda/1.jpg 1080w,
+                                "
+                                sizes="(max-width: 600px) 100vw, 540px"
+                                type="image/webp"
+                                />
+                                <img
+                                    src="../../images/news/2025/10_amanda/1.jpg"
+                                    alt="maulid.jpeg"
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="1080"
+                                    height="1080"
+                                />
+                            </picture>
+                        </a>
+                        <h5>23 September 2025</h5>
+                        <h3>
+                            <a href="news/2025/10_womens_epee.html">
+                                Juara Fencing U-14 Women’s EPEE
+                            </a>
+                        </h3>
+                        <p>
+                            ✨Congratulations for Amandla Candice Aurora! 🥳👏🏻🎉✨
+                        </p>
+                      </article>
+                      <!--break-->
+                      <article class="bgrid sk2">
                         <a href="news/2025/9_maulid.html">
                             <picture>
                                 <source
@@ -512,7 +707,7 @@
                         <p>
                               🌙 Selamat memperingati Maulid Nabi Muhammad SAW...
                         </p>
-                    </article>
+                      </article>
                       <article class="bgrid sk2">
                         <a href="news/2025/8_pameran_ite.html">
                             <picture>
@@ -578,246 +773,6 @@
                                HAFECS with Kemurnian School Jakarta.....
                         </p>
                     </article>
-                     
-                     
-                     <article class="bgrid sk2">
-                        <a href="ajaranbaru.html">
-                            <picture>
-                                <source
-                                srcset="
-                                    ./images/ajaranbaru.webp   1080w,
-                                    ./images/ajaranbaru.webp  1080w
-                                "
-                                sizes="(max-width: 600px) 100vw, 540px"
-                                type="image/webp"
-                                />
-                                <img
-                                src="./images/ajaranbaru.webp"
-                                alt="Seminar-kasih-sd-00"
-                                loading="lazy"
-                                decoding="async"
-                                width="1080"
-                                height="1080"
-                                />
-                            </picture>
-                        </a>
-                        <h5>14 Juli 2025</h5>
-                        <h3>
-                        <a href="ajaranbaru.html">
-                            Welcome back, Kemurnian Students!🤗
-                            
-                        </a>
-                        </h3>
-
-                        <p>
-                              Tahun ajaran baru 2025/2026 resmi dimulai .....
-                        </p>
-                    </article>
-                     
-                       
-                     <article class="bgrid sk2">
-                        <a href="open25.html">
-                            <picture>
-                                <source
-                                srcset="
-                                    ./images/open25.webp   1080w,
-                                    ./images/open25.webp  1080w
-                                "
-                                sizes="(max-width: 600px) 100vw, 540px"
-                                type="image/webp"
-                                />
-                                <img
-                                src="./images/open25.webp"
-                                alt="Seminar-kasih-sd-00"
-                                loading="lazy"
-                                decoding="async"
-                                width="1080"
-                                height="1080"
-                                />
-                            </picture>
-                        </a>
-                        <h5>09 Juli 2025</h5>
-                        <h3>
-                        <a href="open25.html">
-                            𝐎𝐏𝐄𝐍 𝐄𝐍𝐑𝐎𝐋𝐋𝐌𝐄𝐍𝐓 𝟐𝟎𝟐𝟔/𝟐𝟎𝟐𝟕 𝐒𝐔𝐃𝐀𝐇 𝐃𝐈𝐁𝐔𝐊𝐀!
-                            
-                        </a>
-                        </h3>
-
-                        <p>
-                              Untuk orang tua yang sedang mencari sekolah .....
-                        </p>
-                    </article>
-                     
-                     
-                     
-                     <article class="bgrid sk2">
-                        <a href="O2sn1.html">
-                            <picture>
-                                <source
-                                srcset="
-                                    ./images/Kathleen2.webp   1080w,
-                                    ./images/Kathleen2.webp  1080w
-                                "
-                                sizes="(max-width: 600px) 100vw, 540px"
-                                type="image/webp"
-                                />
-                                <img
-                                src="./images/Kathleen2.webp"
-                                alt="Seminar-kasih-sd-00"
-                                loading="lazy"
-                                decoding="async"
-                                width="1080"
-                                height="1080"
-                                />
-                            </picture>
-                        </a>
-                        <h5>26 Juni 2025</h5>
-                        <h3>
-                        <a href="O2sn1.html">
-                            Festival Lomba Seni & Sastra Siswa Nasional (FLS3N) 
-                            
-                        </a>
-                        </h3>
-
-                        <p>
-                              Congratulations for Kathleen Sherice Hendry .....
-                        </p>
-                    </article>
-                     
-                       
-                     <article class="bgrid sk2">
-                        <a href="o2sn.html">
-                            <picture>
-                                <source
-                                srcset="
-                                    ./images/Luvinia1.webp   1080w,
-                                    ./images/Luvinia1.webp  1080w
-                                "
-                                sizes="(max-width: 600px) 100vw, 540px"
-                                type="image/webp"
-                                />
-                                <img
-                                src="./images/Luvinia1.webp"
-                                alt="Seminar-kasih-sd-00"
-                                loading="lazy"
-                                decoding="async"
-                                width="1080"
-                                height="1080"
-                                />
-                            </picture>
-                        </a>
-                        <h5>26 Juni 2025</h5>
-                        <h3>
-                        <a href="o2sn.html">
-                            Olimpiade Olahraga Siswa Nasional (O2SN)
-                            
-                        </a>
-                        </h3>
-
-                        <p>
-                              Congratulations for Luvinia Reiko Visoka .....
-                        </p>
-                    </article>
-                     
-                     
-                     
-                     <article class="bgrid sk2">
-                        <a href="pelatihan1.html">
-                            <picture>
-                                <source
-                                srcset="
-                                    ./images/pelatihan2.webp   1080w,
-                                    ./images/pelatihan2.webp  1080w
-                                "
-                                sizes="(max-width: 600px) 100vw, 540px"
-                                type="image/webp"
-                                />
-                                <img
-                                src="./images/pelatihan2.webp"
-                                alt="Seminar-kasih-sd-00"
-                                loading="lazy"
-                                decoding="async"
-                                width="1080"
-                                height="1080"
-                                />
-                            </picture>
-                        </a>
-                        <h5>23 Juni 2025</h5>
-                        <h3>
-                        <a href="pelatihan1.html">
-                            In House Training by HAFECS
-                            
-                        </a>
-                        </h3>
-
-                        <p>
-                              Hari kedua pelatihan berlanjut dengan .....
-                        </p>
-                    </article>
-                     
-                     
-                     
-                        <article class="bgrid sk2">
-                        <a href="pelatihan.html">
-                            <picture>
-                                <source
-                                srcset="
-                                    ./images/pelatihand1.webp   1080w,
-                                    ./images/pelatihand1.webp  1080w
-                                "
-                                sizes="(max-width: 600px) 100vw, 540px"
-                                type="image/webp"
-                                />
-                                <img
-                                src="./images/pelatihand1.webp"
-                                alt="Seminar-kasih-sd-00"
-                                loading="lazy"
-                                decoding="async"
-                                width="1080"
-                                height="1080"
-                                />
-                            </picture>
-                        </a>
-                        <h5>23 Juni 2025</h5>
-                        <h3>
-                        <a href="pelatihan.html">
-                            In House Training by HAFECS
-                            
-                        </a>
-                        </h3>
-
-                        <p>
-                              Hari pertama In House Training.....
-                        </p>
-                    </article> 
-                     
-                    
-                    
-                    </a>
-                     
-                     
-                    </a>
-                     
-                     
-
-                    </a>
-                     
-                    </a>
-                     
-                    </a>
-                     
-                     
-                    </a>
-              
-                    </a>
-                    
-                 
-                    </a>
-                    </a>
-                    
-                    
-                    </a>
                 </div>
                 <!-- /blog-wrapper -->
             </div> <!-- /twelve -->

@@ -1,0 +1,13 @@
+* Semantic HTML Hierarchy
+
+main
+│
+├─ article
+│  │
+│  ├─ section
+│  │  └─ div
+│  │
+│  ├─ section
+  │   └─ div
+│
+└─ footer
