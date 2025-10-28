@@ -1,4 +1,7 @@
-
+okay
+this repo is really just me flexing my journey to refactor this codebase
+whatever
+see my torturing journet here :3
 ==================================================================================================
 
 PUREMEDIA is a clean and modern template for your business and portfolio websites. The design is 
@@ -133,4 +136,5 @@ Subscribe and follow us on:
 
 Thanks for downloading from Styleshout :)
   
+
 
