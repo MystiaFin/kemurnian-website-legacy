@@ -1,6 +1,26 @@
 <?php
 return [
     [
+        'id' => 18,
+        'title' => 'Juara Evoke Velastra 2025',
+        'date' => '20 Oktober 2025',
+        'image' => './images/news/2025/18_juara_evoke/1.jpg',
+        'webp' => './images/news/2025/18_juara_evoke/1.jpg',
+        'link' => 'news/2025/18_juara_evoke.php',
+        'excerpt' => 'The fight was tough, the spirit was stronger!',
+        'class' => 'sk2'
+    ],
+    [
+        'id' => 17,
+        'title' => 'Field Trip 2025',
+        'date' => '17 Oktober 2025',
+        'image' => './images/news/2025/17_field_trip.jpg',
+        'webp' => './images/news/2025/17_field_trip.jpg',
+        'link' => 'news/2025/17_field_trip.php',
+        'excerpt' => 'Field Trip 2025 = belajar...',
+        'class' => 'sk2'
+    ],
+    [
         'id' => 15,
         'title' => 'Juara 1 Lomba Modern Dance INEXO',
         'date' => '17 Oktober 2025',
