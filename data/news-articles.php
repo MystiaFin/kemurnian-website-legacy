@@ -1,6 +1,26 @@
 <?php
 return [
     [
+        'id' => 20,
+        'title' => 'Pendalaman Iman 2025',
+        'date' => '28 Oktober 2025',
+        'image' => './images/news/2025/20_pendalaman_imang.jpg',
+        'webp' => './images/news/2025/20_pendalaman_iman.jpg',
+        'link' => 'news/2025/20_pendalaman_iman.php',
+        'excerpt' => '✨Different faiths, one purpose — to grow together in harmony ✨🙏🏻✝️🕌🪷',
+        'class' => 'sk2'
+    ],
+    [
+        'id' => 19,
+        'title' => 'Selamat Hari Sumpah Pemuda',
+        'date' => '28 Oktober 2025',
+        'image' => './images/news/2025/19_sumpah_pemuda.jpg',
+        'webp' => './images/news/2025/19_sumpah_pemuda.jpg',
+        'link' => 'news/2025/19_sumpah_pemuda.php',
+        'excerpt' => 'Terus Melaju Untuk Indonesia Yang Maju 🇮🇩🇮🇩🇮🇩',
+        'class' => 'sk2'
+    ],
+    [
         'id' => 18,
         'title' => 'Juara Evoke Velastra 2025',
         'date' => '20 Oktober 2025',
