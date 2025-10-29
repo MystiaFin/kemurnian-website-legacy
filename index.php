@@ -8,6 +8,7 @@ include 'includes/home/hero.php';
 include 'includes/home/ppdb.php';
 
 $newsArticles = include 'data/news-articles.php';
+$latestNews = array_slice($newsArticles, 0, 9);
 ?>
 
 <!DOCTYPE html>
@@ -68,7 +69,117 @@ $newsArticles = include 'data/news-articles.php';
         </div>
     </section>
 
-    <!-- News Section (REFACTORED) -->
+    <!-- Kurikulum Section ================================================== -->
+    <section id="kurikulum">
+
+        <div class="row section-head">
+
+            <div class="twelve columns">
+
+                <h1>Kurikulum</h1>
+
+                <hr />
+
+            </div>
+
+        </div>
+
+        <br>
+
+        <div class="row kurikulum-content">
+
+            <div class="mob-whole six columns left">
+
+                <a title="Kurikulum TK" href="kurikulum-tk.html"><i class="fa fa-book fa-3x"></i></a>
+
+                <h3>Kurikulum TK</h3>
+
+                <p>Berpedoman pada Kurikulum Nasional 2013 yang disempurnakan yaitu pembelajaran tematik
+                    dipadukan dengan Kurikulum Merdeka berisikan nilai-nilai agama dan budi pekerti, jati diri,
+                    literasi dan juga profil pelajar Pancasila.
+                </p>
+                <p><a class="button stroke" href="kurikulum-tk.html">Read On</a></p>
+
+            </div> <!-- /left -->
+
+            <div class="mob-whole six columns right">
+
+                <a title="Kurikulum TK Bilingual" href="kurikulum-tkbil.html"><i class="fa fa-book fa-3x"></i></a>
+
+                <h3>Kurikulum TK Bilingual</h3>
+
+                <p>Berpedoman pada Kurikulum Nasional 2013 PAUD yang Berbasis Kompetensi. Proses Pembelajaran yang
+                    dilakukan diarahkan untuk tercapainya kompetensi sikap spiritual <br><br>
+                </p>
+                <p><a class="button stroke" href="kurikulum-tkbil.html">Read On</a></p>
+
+            </div> <!-- /left -->
+
+        </div> <!-- /row -->
+
+        <div class="row kurikulum-content">
+
+            <div class="mob-whole six columns left">
+
+                <a title="Kurikulum SD" href="kurikulum-sd.html"><i class="fa fa-book fa-3x"></i></a>
+
+                <h3>Kurikulum SD</h3>
+
+                <p>Kurikulum Tingkat Satuan Pendidikan adalah kurikulum operasional yang disusun oleh dan
+                    dilaksanakan di masing-masing satuan pendidikan. Sesuai dengan aturan amanat Peraturan Pemerintah ...
+                </p>
+                <p><a class="button stroke" href="kurikulum-sd.html">Read On</a></p>
+
+            </div> <!-- /right -->
+
+            <div class="mob-whole six columns right">
+
+                <a title="Kurikulum SMP" href="kurikulum-smp.html"><i class="fa fa-book fa-3x"></i></a>
+
+                <h3>Kurikulum SMP</h3>
+
+                <p>Kurikulum ini disusun untuk mewujudkan visi sekolah dengan mengakomodasi potensi yang ada untuk
+                    meningkatkan kualitas sekolah, baik dalam aspek akademis maupun non akademis. Dalam…
+                </p>
+                <p><a class="button stroke" href="kurikulum-smp.html">Read On</a></p>
+
+            </div> <!-- /left -->
+
+        </div> <!-- /row -->
+
+        <div class="row kurikulum-content">
+
+            <div class="mob-whole six columns left">
+
+                <a title="Kurikulum SMA" href="kurikulum-sma.html"><i class="fa fa-book fa-3x"></i></a>
+
+                <h3>Kurikulum SMA</h3>
+
+                <p>SMA Kemurnian II menerapkan kurikulum merdeka belajar, yang mengedepankan pada Profil Pelajar Pancasila
+                    untuk mendorong peserta didik menjadi pelajar sepanjang hidup…
+                </p>
+                <p><a class="button stroke" href="kurikulum-sma.html">Read On</a></p>
+
+            </div> <!-- /right -->
+
+            <div class="mob-whole six columns right">
+
+                <a title="Kurikulum English" href="kurikulum-english.html"><i class="fa fa-book fa-3x"></i></a>
+
+                <h3>Kemurnian School English Program</h3>
+
+                <p>Sekolah Kemurnian juga mengembangkan program Bahasa Inggris yang berkualitas dan juga mempunyai
+                    sumber daya yang mumpuni di bidangnya. <br><br>
+                </p>
+                <p><a class="button stroke" href="kurikulum-english.html">Read On</a></p>
+
+            </div> <!-- /left -->
+
+        </div> <!-- /row -->
+
+    </section>
+
+    <!-- News Section (REFACTORED - Only 9 Latest) -->
     <section id="journal">
         <div class="row section-head">
             <div class="twelve columns">
@@ -80,14 +191,14 @@ $newsArticles = include 'data/news-articles.php';
         <div class="row">
             <div class="twelve columns">
                 <div id="blog-wrapper" class="bgrid-third tab-bgrid-half mob-bgrid-half group">
-                    <?php foreach ($newsArticles as $article): ?>
+                    <?php foreach ($latestNews as $article): ?>
                         <?php renderNewsCard($article); ?>
                     <?php endforeach; ?>
                 </div>
             </div>
         </div>
 
-        <a class="button stroke" href="news.html">More News</a>
+        <a class="button stroke" href="news.php">More News</a>
     </section>
 
     <?php renderPPDB(); ?>

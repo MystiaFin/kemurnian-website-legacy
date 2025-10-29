@@ -9,10 +9,10 @@ function renderFooter()
         <div class="mob-whole six columns left">
             <picture>
                 <source
-                    srcset="./images/cambridge.avif 2089w, ./images/cambridge-small.avif 1045w"
+                    srcset="/images/cambridge.avif 2089w, /images/cambridge-small.avif 1045w"
                     sizes="(max-width: 540px) 100vw, 540px"
                     type="image/avif" />
-                <img src="./images/cambridge.webp" alt="cambridge" width="2089" height="728" loading="lazy" decoding="async" />
+                <img src="/images/cambridge.webp" alt="cambridge" width="2089" height="728" loading="lazy" decoding="async" />
             </picture>
         </div>
 
@@ -32,15 +32,15 @@ function renderFooter()
         <div id="contact">
             <a title="Linktree" href="https://linktr.ee/sekolahkemurnian" target="_blank">
                 <picture>
-                    <source srcset="./images/whatsapp.avif" type="image/avif" />
-                    <img src="./images/whatsapp.webp" alt="whatsapp" width="1000" height="1000" loading="lazy" decoding="async" />
+                    <source srcset="/images/whatsapp.avif" type="image/avif" />
+                    <img src="/images/whatsapp.webp" alt="whatsapp" width="1000" height="1000" loading="lazy" decoding="async" />
                 </picture>
             </a>
         </div>
 
         <div id="sound">
             <audio id="mars" controls>
-                <source src="mars-kemurnian-jaya.mp3" type="audio/mp3">
+                <source src="/mars-kemurnian-jaya.mp3" type="audio/mp3">
             </audio>
         </div>
     </div>
